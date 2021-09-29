@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <libro>
+        <isbn>9788420412146</isbn>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <fecha>1605</fecha>
+    </libro>
+    <libro>
+        <isbn>9788431680251</isbn>
+        <titulo>El Lazarillo De Tormes</titulo>
+        <autor>Anonimo</autor>
+        <fecha>1554</fecha>
+    </libro>    
+</lista>

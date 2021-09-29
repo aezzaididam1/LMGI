@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EMPRESAS>
+    <EMPRESA>
+        <CIF-NIF>B48049587</CIF-NIF>
+        <NOMBRE>Nombre Empresa</NOMBRE>
+        <DOMICILIO_SOCIAL>
+            <NUMERO>222</NUMERO>
+            <TIPO_VIA>PZ</TIPO_VIA>
+            <CODIGO_MUNICIPIO>41020</CODIGO_MUNICIPIO>
+            <PISO>2</PISO>
+            <VIA>NUEVA</VIA>
+        </DOMICILIO_SOCIAL>
+        <REPRESENTANTE>
+            <DNI>28798462G</DNI>
+            <NOMBRE>Nombre Representante</NOMBRE>
+        </REPRESENTANTE>
+    </EMPRESA>
+</EMPRESAS>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cine>
+    <pelicula>
+        <titulo>La visita</titulo>
+        <director> M.Night Shyamalan</director>
+    </pelicula> 
+    <pelicula>
+        <titulo>Inside out</titulo>
+        <director alias="Leca" >Pete Docter</director>
+        <tipo>Animación</tipo>
+    </pelicula> 
+</cine>

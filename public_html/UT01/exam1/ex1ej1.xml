@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <persona nif="12345678X">
+        <nombre>Jon</nombre>
+        <apellidos>Braun Txiki</apellidos>
+        <fnacimiento>2001-01-01</fnacimiento>
+    </persona>
+    <persona nif="22334455Z">
+        <nombre>Marga</nombre>
+        <apellidos>Rita Rita</apellidos>
+        <fnacimiento>1989-11-23</fnacimiento>
+    </persona>
+</lista>

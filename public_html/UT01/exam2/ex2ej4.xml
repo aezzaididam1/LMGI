@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<current_observation version="1.0">
+    <image>
+            <url>http://weather.gov/images/xml_logo.gif</url>
+            <title>NOAA's National Weather Service</title>
+            <link>http://weather.gov</link>
+    </image>
+    <location>Alabaster, Shelby County Airport, AL</location>
+    <station_id>KEET</station_id>
+    <latitude>33.17833</latitude>
+    <longitude>-86.78167</longitude>
+    <observation_time>Sep 22 2021, 1:53 pm CDT</observation_time>
+    <weather>Mostly Cloudy</weather>
+    <temp_f>71.0</temp_f>
+    <temp_c>21.7</temp_c>
+</current_observation>

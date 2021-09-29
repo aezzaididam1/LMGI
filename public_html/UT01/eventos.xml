@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventos>
+    <evento>
+        <tipo>concierto</tipo>
+        <fecha>
+            <anio>2020</anio>
+            <mes>05</mes>
+            <dia>15</dia>
+        </fecha>
+        <entrada tipo="abono">200</entrada>
+        <lugar provincia="Navarra">Pamplona</lugar>
+    </evento>
+    <evento>
+        <tipo>teatro</tipo>
+        <fecha>
+            <anio>2020</anio>
+            <mes>04</mes>
+            <dia>10</dia>
+        </fecha>
+        <entrada tipo="individual">40</entrada>
+        <lugar provincia="Navarra">Estella</lugar>
+    </evento>
+</eventos>

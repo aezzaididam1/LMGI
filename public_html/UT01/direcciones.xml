@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amigos>
+    <amigo>
+        <nombre>Mikel</nombre>
+        <apellido>Gartzia</apellido>
+        <movil>609888777</movil>
+        <email>mikel.gartzia@miemp.com</email>
+    </amigo>
+    <amigo>
+        <nombre>Ainara</nombre>
+        <apellido>Ramirez</apellido>
+        <movil>609123456</movil>
+        <email>ainara.ramirez@miemp.com</email>
+    </amigo>
+    <amigo>
+        <nombre>Ion</nombre>
+        <apellido>Braun</apellido>
+        <movil>609556677</movil>
+        <email>ion.braun@miemp.com</email>
+    </amigo>
+</amigos>

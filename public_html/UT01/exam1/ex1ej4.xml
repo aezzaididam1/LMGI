@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="Ejer2Recuperacion.xsd">
+    <Album artist="The Last Shadow Puppets" title="The Age Of The Understatement">
+        <Track rating="4" length="P3M07S" song="The Age Of The 
+                  Understatement"/>
+        <Track rating="3" length="P2M18S" song="Standing Next To Me"  />
+        <Break time="2"/>
+        <Track rating="5" length="P2M26S" song="Calm Like You" />
+        <Track rating="3" song="Separate and Ever 
+                       Deadly" />
+    </Album>
+    <Album artist="Kings Of Leon" title="Because Of The Times">
+        <Track rating="4" length="P7M10S" song="Knocked Up" />
+        <Track rating="2" length="P2M57S" song="Charmer"    />
+        <Break/>
+        <Track rating="1" length="P3M59S" song="Black Thumbnail" />
+    </Album>
+</Catalog>

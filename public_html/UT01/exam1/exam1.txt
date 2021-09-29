@@ -1,0 +1,56 @@
+1. Crea un documento XML bien formado incluyendo su prólogo que describa una 
+lista de dos personas, recogiendo su nif, nombre, apellidos y fecha de nacimiento. 
+Utiliza sólo un atributo para representar la información más adecuada. 
+Invéntate unos valores realistas. (2 puntos)
+
+2. Crea un documento XML bien formado incluyendo su prólogo que pueda utilizarse 
+para mostrar partidos de un deporte de equipo. Utiliza un elemento vacío. (2 Puntos)
+Partido 1: Entre los equipos “Tudelano” y “Azkoyen” el 25 de octubre de 2021 a 
+las 8 de la tarde en Tudela. Partido 2 : Entre los equipos “Lizarra” y “Txantrea” 
+el 26 de octubre de 2021 a las 10 de la mañana en Pamplona que está “aplazado”.
+
+3. Corrige todos los errores de los dos siguientes documentos XML que no necesitan 
+prólogo. Redondea con un círculo los errores y escribe o tacha si es el caso para 
+indicar cómo sería correcto (6 Puntos)
+
+<gpx track>
+    <trk "camext">
+        <name>Camille Extreme</name>
+        <cmt>Carrera de Montaña<cmt>
+        <desc>Carrera de Montaña</desc>
+        <trkseg>
+            <trkpt lat=42.859657 lon="-0.924395">
+                <ele>791.0<ele>
+                <time 2012-05-01T20:46:03Z</Time>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx track>
+
+<Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi noNamespaceSchemaLocation="Ejer2Recuperacion.xsd">
+    <Album artist="The Last Shadow Puppets" title="The Age Of The Understatement>
+        <Track rating="4" length="P3M07S" song="The Age Of The 
+                  Understatement"/>
+        <Track rating="3" length="P2M18S" song="Standing Next To Me"  />
+        <Break time=2/>
+        <Track rating="5" length="P2M26S" song="Calm Like You" />
+        <Track rating="3" song="Separate and Ever 
+                       Deadly" >
+    </album>
+    <Album artist="Kings Of Leon" title="Because Of The Times">
+        <Track rating="4" length="P7M10S" song="Knocked Up" />
+        <Track rating="2" length="P2M57S" song="Charmer"    />
+        <Break>
+        <Track rating="1" length="P3M59S" song="Black Thumbnail" />
+    </Album>
+<Catalog>
+
+
+Criterios de evaluación para los dos primeros ejercicios (penalización entre paréntesis): 
+Si no está el prólogo (-1), si no hay elemento raíz (-2), si falta un elemento (-2), 
+si no se cierra una etiqueta (-1), si no hay atributo (-1), si no hay elemento vacío (-1), 
+errores en los nombres de los elementos o atributos (-1), otros errores (-1) por los que 
+no sea un documento bien formado.
+
+Criterios de evaluación para el tercer ejercicio: Cada error no corregido penaliza 0.5 puntos.

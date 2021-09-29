@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventos>
+    <evento>
+        <senial>accidente</senial>
+        <puntoKM>42,200</puntoKM>
+        <via sentido="Huelva">A-49</via>
+        <fecha_hora>2019 09 19 15:22</fecha_hora>
+        <retencion retencionKM="8">SI</retencion>
+    </evento>
+    <evento>
+        <senial>retención</senial>
+        <puntoKM>550</puntoKM>
+        <via sentido="Sevilla">A-4</via>
+        <fecha_hora>2019 09 19 19:25</fecha_hora>
+        <retencion retencionKM="3">SI</retencion>
+    </evento>
+</eventos>

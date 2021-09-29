@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    <pelicula>
+        <titulo>Dune</titulo>
+        <sala>1</sala>
+        <duracion>155</duracion>
+        <sesion>16:30</sesion>
+        <sesion>19:30</sesion>
+        <sesion version="vose">22:30</sesion>
+    </pelicula>
+    <pelicula>
+        <titulo>La patrulla canina</titulo>
+        <sala>2</sala>
+        <duracion>86</duracion>
+        <sesion>16:30</sesion>
+        <sesion>18:30</sesion>
+    </pelicula>
+</cartelera>

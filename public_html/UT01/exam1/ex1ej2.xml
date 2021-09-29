@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<partidos>
+    <partido>
+        <equipo>Tudelano</equipo>
+        <equipo>Azkoyen</equipo>
+        <cuando>2021-10-25 20:00</cuando>
+        <donde>Tudela</donde>
+    </partido>
+    <partido>
+        <aplazado/>
+        <equipo>Lizarra</equipo>
+        <equipo>Txantrea</equipo>
+        <cuando>2021-10-26 10:00</cuando>
+        <donde>Pamplona</donde>
+    </partido>
+</partidos>

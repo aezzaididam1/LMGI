@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx_track>
+    <trk id="camext">
+        <name>Camille Extreme</name>
+        <cmt>Carrera de Montaña</cmt>
+        <desc>Carrera de Montaña</desc>
+        <trkseg>
+            <trkpt lat="42.859657" lon="-0.924395">
+                <ele>791.0</ele>
+                <time>2012-05-01T20:46:03Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx_track>

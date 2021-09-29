@@ -1,0 +1,58 @@
+1. Crea un documento XML bien formado incluyendo su prólogo que describa una 
+lista de dos libros, recogiendo su isbn (código de 13 dígitos), título, autor y 
+año de publicación. No utilices ningún atributo. Invéntate unos valores realistas. 
+(2 puntos)
+
+2. Crea un documento XML bien formado incluyendo su prólogo que pueda utilizarse 
+para mostrar la cartelera de películas de un cine. Sólo en el elemento 
+correspondiente utiliza un atributo para indicar si es versión original con 
+subtítulos en español (sólo hay una sesión con VOSE). (2 Puntos)
+Película “Dune”, sesiones 16:30, 19:30 y 22:30 (VOSE), duración 155 minutos, sala 1. 
+Película “La patrulla canina”, sesiones 16:30 y 18:30, duración 86 minutos, sala 2.
+
+3. Corrige todos los errores de los dos siguientes documentos XML que no necesitan 
+prólogo. Redondea con un círculo los errores y escribe o tacha si es el caso para 
+indicar cómo sería correcto (6 Puntos)
+
+<EMPRESAS>
+<EMPRESA>
+<CIF/NIF>B48049587</CIF/NIF>
+<NOMBRE>Nombre Empresa<NOMBRE>
+<DOMICILIO_SOCIAL>
+<NUMERO>222</NUMERO>
+<TIPO VIA>PZ</TIPO VIA>
+<CODIGO_MUNICIPIO>41020</CODIGO_MUNICIPIO>
+<PISO>2</PISO>
+<VIA>NUEVA</VIA>
+</DOMICILIO_SOCIAL>
+<REPRESENTANTE>
+<DNI/>28798462G<DNI>
+<NOMBRE/>Nombre Representante</NOMBRE>
+</REPRESENTANTE>
+</EMPRESA>
+</EMPRESAS>
+
+
+<current observation version="1.0">
+	<image>
+		<url>http://weather.gov/images/xml_logo.gif<url>
+		<title>NOAA's National Weather Service<title>
+		<link>http://weather.gov<link>
+	</image>
+	<Location>Alabaster, Shelby County Airport, AL</location>
+	<station id>KEET</station id>
+	<latitude>33.17833</latitude>
+	<longitude>-86.78167</longitude>
+	<observation_time>Sep 22 2021, 1:53 pm CDT<observation_time/>
+	<weather>Mostly Cloudy</weather>
+	<temp_f>71.0</temp_f>
+	<temp_c>21.7</temp_c>
+</current observation>
+
+Criterios de evaluación para los dos primeros ejercicios (penalización entre paréntesis): 
+Si no está el prólogo (-1), si no hay elemento raíz (-2), si falta un elemento (-2), 
+si no se cierra una etiqueta (-1), si no hay atributo (-1), si no hay elemento vacío (-1), 
+errores en los nombres de los elementos o atributos (-1), otros errores (-1) por los que 
+no sea un documento bien formado.
+
+Criterios de evaluación para el tercer ejercicio: Cada error no corregido penaliza 0.5 puntos.
