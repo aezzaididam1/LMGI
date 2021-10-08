@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="persons" type="personsType"/>
+    
+    <xs:complexType name="personsType">
+      <xs:sequence>
+        <xs:element name="person" type="personType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+
+    <xs:complexType name="personType">
+      <xs:sequence>
+        <xs:element name="firstname" type="xs:string"/>
+        <xs:element name="lastname" type="xs:string"/>
+        <xs:any processContents="skip" 
+                minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

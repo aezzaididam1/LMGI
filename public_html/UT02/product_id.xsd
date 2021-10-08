@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="product" type="prodidType"/>
+
+    <xs:complexType name="prodidType">
+        <xs:attribute name="prodid" type="xs:integer"/>
+    </xs:complexType>
+    
+</xs:schema>

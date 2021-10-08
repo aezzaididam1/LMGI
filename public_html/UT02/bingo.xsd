@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="bingo" type="bingoType"/>
+    
+    <xs:complexType name="bingoType">
+        <xs:sequence>
+            <xs:element name="bola" type="bolaType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="bolaType">
+        <xs:attribute name="numero" type="xs:integer"/>
+    </xs:complexType>
+    
+</xs:schema>

@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="note.xsd">
-  <!-- NO bien formado y por lo tanto NO valido conforme al esquema. -->
-  <to>Tove<to>
-  <from>Jani</from>
+  <to>Tove</to>
+  <from>Jani<from>
   <heading>Reminder</heading>
   <body>Don't forget me this weekend!</body>
 </note>

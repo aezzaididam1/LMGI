@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="persona.xsd">
+    <dni>12345678Z</dni>
+    <nombre>Aitor</nombre>
+    <apellidos>E.O.</apellidos>
+    <fechaNacimiento>2001-01-01</fechaNacimiento>
+    <puntos>21</puntos>
+</persona>
