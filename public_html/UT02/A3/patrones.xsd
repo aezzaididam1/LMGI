@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+    <xs:element name="patrones" type="patronesType"/>
+    
+    <xs:complexType name="patronesType">
+        <xs:sequence>
+            <xs:element name="e1" type="e1Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e2" type="e2Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e3" type="e3Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e4" type="e4Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e5" type="e5Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e6" type="e6Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e7" type="e7Type" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="e8" type="e8Type" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="e1Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Capítulo \d"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e2Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Capítulo \d{1,2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e3Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(Capítulo [1-9]?[1-9])|(Capítulo [1-9]0)"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e4Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Capítulo \d+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e5Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\DZ"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e6Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="AB{2,5}C"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e7Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="RS{2,}[3-8]?"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="e8Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="COD\d{3}.+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

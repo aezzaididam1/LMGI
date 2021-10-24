@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="fichas1.xsd">
+    <ficha> 
+        <nombre>Antonio Machado Ruiz</nombre>
+        <iniciales>AMR</iniciales>
+        <iniciales-al-reves>RMA</iniciales-al-reves>        
+        <edad>22</edad>
+    </ficha>
+    <ficha>
+        <nombre>Antonio</nombre>
+        <iniciales>ANT</iniciales>
+        <iniciales-al-reves>TNA</iniciales-al-reves>
+        <edad>2</edad>
+    </ficha>
+    <ficha>
+        <nombre>Mario Moreno</nombre>
+        <iniciales>mmo</iniciales>
+        <iniciales-al-reves>omm</iniciales-al-reves>
+        <edad>23</edad>
+    </ficha>
+    <ficha>
+        <nombre>Mario de Moreno</nombre>
+        <iniciales>MDM</iniciales>
+        <iniciales-al-reves>MDM</iniciales-al-reves>
+        <edad>123</edad>
+    </ficha>
+</fichas>

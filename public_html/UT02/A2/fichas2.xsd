@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="fichas" type="fichasType"/>
+    
+    <xs:complexType name="fichasType">
+        <xs:sequence>
+            <xs:element name="ficha" type="fichaType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="fichaType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="clave" type="claveType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="claveType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9]{4,10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

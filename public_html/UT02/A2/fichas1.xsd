@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="fichas" type="fichasType"/>
+    
+    <xs:complexType name="fichasType">
+        <xs:sequence>
+            <xs:element name="ficha" type="fichaType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="fichaType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="edad" type="edadType"/>
+        </xs:sequence>
+        <xs:attribute name="numero" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:simpleType name="edadType">
+        <!-- positiveInteger no incluye el 0 !!!
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxInclusive value="130"/>
+        </xs:restriction>
+          -->
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="130"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

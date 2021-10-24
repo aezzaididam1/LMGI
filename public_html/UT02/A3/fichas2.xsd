@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="fichas" type="fichasType"/>
+    
+    <xs:complexType name="fichasType">
+        <xs:sequence>
+            <xs:element name="ficha" type="fichaType"
+                        maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="fichaType">
+        <xs:sequence>
+            <xs:element name="codigo" type="codnumType"/>
+            <xs:element name="nombre" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="numero" type="codnumType"
+                      use="required"/>
+        <xs:attribute name="letra" type="letraType"/>
+    </xs:complexType>
+
+    <xs:simpleType name="codnumType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="letraType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[XYZ]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+
+</xs:schema>

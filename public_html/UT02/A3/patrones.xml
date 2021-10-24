@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patrones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="patrones.xsd"> 
+    <e1>Capítulo 0</e1>
+    <e1>Capítulo 9</e1>
+    <e2>Capítulo 0</e2>
+    <e2>Capítulo 02</e2>
+    <e2>Capítulo 99</e2>
+    <!-- 
+    <e3>Capítulo 0</e3>
+    -->
+    <!--
+    <e3>Capítulo 02</e3>
+    -->
+    <e3>Capítulo 1</e3>
+    <e3>Capítulo 10</e3>
+    <e3>Capítulo 99</e3>
+    <!--
+    <e4>Capítulo </e4>
+    -->
+    <e4>Capítulo 0</e4>
+    <e4>Capítulo 04</e4>
+    <e4>Capítulo 100</e4>
+    <!--
+    <e5>0Z</e5>
+    -->
+    <e5>aZ</e5>
+    <e5>=Z</e5>
+    <!--
+    <e6>ABC</e6>
+    -->
+    <e6>ABBC</e6>
+    <e6>ABBBC</e6>
+    <e6>ABBBBC</e6>
+    <e6>ABBBBBC</e6>
+    <!--
+    <e7>RSS2</e7>
+    -->
+    <e7>RSS</e7>
+    <e7>RSSSSSSSSSSS7</e7>
+    <!--
+    <e8>COD645</e8>
+    -->
+    <e8>COD645pera</e8>
+    <e8>COD646manzana</e8>
+</patrones>

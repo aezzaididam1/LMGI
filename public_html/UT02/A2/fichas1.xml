@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="fichas1.xsd">
+    <ficha numero="1">
+        <nombre>Ana Sanz Tin</nombre>
+        <edad>2</edad>
+    </ficha>
+    <ficha numero="2">
+        <nombre>Iker Rubio Mol</nombre>
+        <edad>0</edad>
+    </ficha>
+    <ficha numero="12">
+        <nombre>Iker Rubio Mol</nombre>
+        <edad>130</edad>
+    </ficha>
+</fichas>

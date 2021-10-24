@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="personas" type="personasType"/>
+    
+    <xs:complexType name="personasType">
+        <xs:sequence>
+            <xs:element name="persona" type="personaType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="personaType" mixed="true">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="ciudad" type="xs:string"/>
+            <xs:element name="edad" type="xs:positiveInteger"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+</xs:schema>

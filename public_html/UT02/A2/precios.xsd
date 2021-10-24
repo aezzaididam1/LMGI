@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="precios" type="preciosType"/>
+    
+    <xs:complexType name="preciosType">
+        <xs:sequence>
+            <xs:element name="precio" type="precioType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="precioType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\d)|(\d[.]\d)|(\d[.]\d\d)|(\d\d)|(\d\d[.]\d)|(\d\d\d)"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
