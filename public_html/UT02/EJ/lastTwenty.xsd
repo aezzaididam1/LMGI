@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="CrossSectionalData" type="CrossSectionalDataType"/>
+
+  <xs:complexType name="CrossSectionalDataType">
+    <xs:sequence>
+      <xs:element name="Header" type="HeaderType"/>
+      <!--
+      <xs:element name="DataSet" type="xs:anyType"/>
+      -->
+      <xs:element name="DataSet" type="DataSetType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <xs:element name="ID" type="IDType"/>
+      <xs:element name="Test" type="xs:boolean"/>
+      <xs:element name="Name" type="NameType"/>
+      <xs:element name="Prepared" type="xs:dateTime"/>
+      <xs:element name="Sender" type="SenderType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="IDType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="AMBS20[2-9]\d((0[1-9])|(1[0-2]))(([0-2]\d)|(3[01]))\d{6}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="NameType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="lang" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="SenderType">
+    <xs:sequence>
+      <xs:element name="Name" type="NameType"/>
+      <xs:element name="Contact" type="ContactType"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"/>
+  </xs:complexType>
+
+  <xs:complexType name="ContactType">
+    <xs:sequence>
+      <xs:element name="Name" type="NameType"/>
+      <xs:element name="Email" type="EmailType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="EmailType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".{1,64}@.{1,59}[.][a-z]{2,3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="DataSetType">
+    <xs:sequence>
+      <xs:element name="Group" type="GroupType"/>
+    </xs:sequence>
+    <xs:attribute name="type" default="DataSetType"/>
+  </xs:complexType>
+
+  <xs:complexType name="GroupType">
+    <xs:sequence>
+      <xs:element name="Section" type="SectionType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="AVAILABILITY" type="letterType"/>
+    <xs:attribute name="DISCLAIMER" type="letterType"/>
+  </xs:complexType>
+
+  <xs:simpleType name="letterType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="SectionType">
+    <xs:sequence>
+      <xs:element name="TBA_DETAIL" type="TBA_DETAILType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="DR_DETAIL" type="DR_DETAILType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <!--
+    <xs:anyAttribute processContents="skip"/>
+    -->
+    <xs:attribute name="AUCTION_STATUS" type="xs:string"/>
+    <xs:attribute name="OPERATION_ID" type="xs:string"/>
+    <xs:attribute name="OPERATION_DATE" type="xs:date"/>
+    <xs:attribute name="OPERATION_TYPE" type="xs:string"/>
+    <xs:attribute name="START_TIME" type="xs:time"/>
+    <xs:attribute name="END_TIME" type="xs:time"/>
+    <xs:attribute name="NOTE" type="xs:string"/>
+    <xs:attribute name="TOTAL_AMT_ACCEPTED_PAR" type="bigNumberType"/>
+    <xs:attribute name="LAST_UPDATED" type="xs:dateTime"/>
+    <xs:attribute name="OPERATION_DIRECTION" type="letterType"/>
+    <xs:attribute name="AUCTION_METHOD" type="letterType"/>
+    <xs:attribute name="OPERATION_RELEASE_TIME" type="xs:time"/>
+    <xs:attribute name="OPERATION_CLOSE_TIME" type="xs:time"/>
+    <xs:attribute name="OPERATION_SETTLEMENT_DATE" type="xs:date"/>
+    <xs:attribute name="CLASS_TYPE" type="letterType"/>
+    <xs:attribute name="TOTAL_AMT_SUBMITTED_ORIGINAL_FACE" type="xs:string"/>
+    <xs:attribute name="TOTAL_AMT_ACCEPTED_ORIGINAL_FACE" type="xs:string"/>
+    <xs:attribute name="TOTAL_AMT_SUBMITTED_CURRENT_FACE" type="xs:string"/>
+    <xs:attribute name="TOTAL_AMT_ACCEPTED_CURRENT_FACE" type="xs:string"/>
+    <xs:attribute name="TOTAL_AMT_SUBMITTED_PAR" type="bigNumberType"/>
+    <xs:attribute name="OBS_CONF" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="TBA_DETAILType">
+    <xs:attribute name="INCLUSION_EXCLUSION_FLAG" type="letterType"/>
+    <xs:attribute name="AMT_ACCEPTED_PAR" type="bigNumberType"/>
+    <xs:attribute name="SECURITY_DESCRIPTION" type="secDescType"/>
+  </xs:complexType>
+
+  <xs:complexType name="DR_DETAILType">
+    <xs:attribute name="INCLUSION_EXCLUSION_FLAG" type="letterType"/>
+    <xs:attribute name="AMT_ACCEPTED_PAR" type="bigNumberType"/>
+    <xs:attribute name="SECURITY_DESCRIPTION" type="secDescType"/>
+    <xs:attribute name="OPERATION_DIRECTION" type="letterType"/>
+  </xs:complexType>
+
+  <xs:simpleType name="secDescType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Z]{4} \d([.]\d)? ((0[1-9])|(1[0-2]))/([2-9]\d)"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="bigNumberType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1000000"/>
+      <xs:maxInclusive value="20000000000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

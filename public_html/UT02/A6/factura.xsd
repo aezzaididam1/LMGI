@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="factura" type="facturaType"/>
+    
+    <xs:complexType name="facturaType">
+        <xs:sequence>
+            <xs:element name="datos-emisor" type="datosType"/>
+            <xs:element name="datos-cliente" type="datosType"/>
+            <xs:element name="detalle-factura" type="detalleType"/>
+        </xs:sequence>
+        <xs:attribute name="número" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="fecha" type="xs:date" use="required"/>
+        <xs:attribute name="moneda" type="xs:string" fixed="Euro" />
+    </xs:complexType>
+    
+    <xs:complexType name="datosType">
+        <xs:sequence>
+            <xs:element name="nombre" type="tipoTexto"/>
+            <xs:element name="cif" type="cifType"/>
+            <xs:element name="teléfono" type="tlfType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="detalleType">
+        <xs:sequence>
+            <xs:element name="línea" type="lineaType"
+                        minOccurs="1" maxOccurs="15"/>
+        </xs:sequence>
+        <xs:attribute name="importe" type="tipoPrecio" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="lineaType">
+        <xs:sequence>
+            <xs:element name="descripción" type="tipoTexto"/>
+            <xs:element name="cantidad" type="xs:positiveInteger"/>
+            <xs:element name="oferta" type="ofertaType" minOccurs="0"/>
+            <xs:element name="pvp" type="tipoPrecio"/>
+        </xs:sequence>
+        <xs:attribute name="código-artículo" type="xs:ID" use="required"/>
+        <xs:attribute name="tipo" type="tipoArtículo"/>
+    </xs:complexType>
+    
+    <xs:complexType name="ofertaType">
+    </xs:complexType>
+    
+    <xs:simpleType name="tipoTexto">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="5"/>
+            <xs:maxLength value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="cifType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}-[A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tlfType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoPrecio">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+            <xs:maxInclusive value="999"/>
+            <xs:totalDigits value="5"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoArtículo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Libro"/>
+            <xs:enumeration value="DVD"/>
+            <xs:enumeration value="Varios"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

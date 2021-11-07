@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="aeropuerto" type="aeropuertoType"/>
+
+    <xs:complexType name="aeropuertoType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="vuelos" type="vuelosType"/>
+            <xs:element name="fecha" type="xs:date"/>            
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="vuelosType">
+        <xs:sequence>
+            <xs:element name="vuelo" type="vueloType"
+                        minOccurs="0" maxOccurs="unbounded"/>         
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="vueloType">
+        <xs:sequence>
+            <xs:element name="diario" type="diarioType" minOccurs="0"/>
+            <xs:element name="origen" type="xs:string"/>         
+            <xs:element name="destino" type="xs:string"/>        
+            <xs:element name="hora-salida" type="xs:time"/>     
+            <xs:element name="hora-llegada" type="xs:time"/>         
+        </xs:sequence>
+        <xs:attribute name="código" type="codType" use="required"/>
+        <xs:attribute name="estado" type="estType" default="E"/>
+    </xs:complexType>
+    
+    <xs:complexType name="diarioType">
+    </xs:complexType>
+    
+    <xs:simpleType name="codType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]\d\d"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="estType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[CER]"/>
+        </xs:restriction>
+    </xs:simpleType>    
+    
+</xs:schema>

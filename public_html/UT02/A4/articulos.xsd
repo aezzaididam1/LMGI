@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="articulos" type="articulosType"/>
+    
+    <xs:complexType name="articulosType">
+        <xs:sequence>
+            <xs:element name="articulo" type="articuloType"
+                        minOccurs="0"  maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="articuloType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="precio" type="precioType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="precioType">
+        <xs:simpleContent>
+            <xs:extension base="valorType">
+                <xs:attribute name="moneda" type="monedaType"/>
+            </xs:extension>            
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="valorType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+            <xs:totalDigits value="6"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="monedaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Euro"/>
+            <xs:enumeration value="Dólar"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

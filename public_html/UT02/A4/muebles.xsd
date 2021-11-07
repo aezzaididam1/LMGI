@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="muebles" type="mueblesType"/>
+    
+    <xs:complexType name="mueblesType">
+        <xs:sequence>
+            <xs:element name="mueble" type="muebleType"
+                        minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="muebleType">
+        <xs:simpleContent>
+            <xs:extension base="mobiType">
+                <xs:attribute name="color" type="colorType"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="mobiType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="armario|mesa|silla"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="colorType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="blanco|gris|negro|wengue"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

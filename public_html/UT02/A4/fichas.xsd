@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="fichas" type="fichasType"/>
+    
+    <xs:complexType name="fichasType">
+        <xs:sequence>
+            <xs:element name="ficha" type="fichaType"
+                        minOccurs="0"  maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="fichaType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="edad" type="xs:string"/>
+            <xs:element name="telefono" type="telefonoType"/>
+            <xs:element name="ciudad" type="xs:string"/>
+            <xs:element name="pais" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="numero"  type="xs:positiveInteger"/>
+    </xs:complexType>
+    
+    <xs:simpleType name="telefonoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="CrossSectionalData" type="CrossSectionalDataType"/>
+
+  <xs:complexType name="CrossSectionalDataType">
+    <xs:sequence>
+      <xs:element type="HeaderType" name="Header"/>
+      <xs:element type="DataSetType" name="DataSet"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <xs:element type="tipoID" name="ID"/>
+      <xs:element type="xs:boolean" name="Test"/>
+      <xs:element type="NameType" name="Name"/>
+      <xs:element type="xs:date" name="Prepared"/>
+      <xs:element type="SenderType" name="Sender"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoID">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{4,5}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="NameType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="lang" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="SenderType">
+    <xs:sequence>
+      <xs:element type="NameType" name="Name"/>
+      <xs:element type="ContactType" name="Contact"/>
+    </xs:sequence>
+    <xs:attribute type="tipoID" name="id"/>
+  </xs:complexType>
+
+  <xs:complexType name="ContactType">
+    <xs:sequence>
+      <xs:element type="NameType" name="Name"/>
+      <xs:element type="tipoEmail" name="Email"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoEmail">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".{1,64}@.{1,59}[.][a-z]{2,3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!--      -->
+
+  <xs:complexType name="DataSetType">
+    <xs:sequence>
+      <xs:element type="GroupType" name="Group"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GroupType">
+    <xs:sequence>
+      <xs:element type="SectionType" name="Section" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute type="tipoLetra" name="AUCTION_STATUS"/>
+    <xs:attribute type="tipoLetra" name="AVAILABILITY"/>
+    <xs:attribute type="tipoLetra" name="DISCLAIMER"/>
+    <xs:attribute type="xs:dateTime" name="LAST_UPDATED"/>
+    <xs:attribute type="tipoLetra" name="OBS_STATUS"/>
+    <xs:attribute type="xs:string" name="OPERATION_ID"/>
+    <xs:attribute type="xs:string" name="TIME_FORMAT"/>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoLetra">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="SectionType">
+    <xs:sequence>
+      <xs:element type="InSectType" name="OFFERING_AMOUNT" minOccurs="0"/>
+      <xs:element type="InSectType" name="MAX_AWARD_AMOUNT" minOccurs="0"/>
+      <xs:element type="InSectType" name="MIN_FEE_RATE" minOccurs="0"/>
+      <xs:element type="InSectType" name="SECURITY_AMOUNT_AVAILABLE_FOR_LOAN" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="InSectType" name="PAR_ACCEPTED" minOccurs="0"/>
+      <xs:element type="InSectType" name="PAR_SUBMITTED" minOccurs="0"/>
+      <xs:element type="InSectType" name="BID_TO_COVER" minOccurs="0"/>
+      <xs:element type="InSectType" name="STOP_OUT_RATE" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="AUCTION_CLOSE_TIME"/>
+    <xs:attribute type="xs:string" name="AUCTION_COLLATERAL_TYPE"/>
+    <xs:attribute type="xs:string" name="AUCTION_START_TIME"/>
+    <xs:attribute type="xs:string" name="MATURITY_DATE"/>
+    <xs:attribute type="xs:string" name="SECTION_TYPE"/>
+    <xs:attribute type="xs:string" name="SETTLEMENT_DATE"/>
+    <xs:attribute type="xs:string" name="TERM"/>
+    <xs:attribute type="xs:string" name="TIME"/>
+  </xs:complexType>
+
+  <xs:complexType name="InSectType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="DECIMALS"/>
+        <xs:attribute type="xs:string" name="CURRENCY_UNIT"/>
+        <xs:attribute type="tipoLetra" name="OBS_CONF"/>
+        <xs:attribute type="tipoLetra" name="OBS_STATUS"/>
+        <xs:attribute type="xs:string" name="SECURITY_DESCRIPTION"/>
+        <xs:attribute type="xs:string" name="UNIT_MULT"/>
+        <xs:attribute type="xs:string" name="value"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

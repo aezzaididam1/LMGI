@@ -1,0 +1,38 @@
+lastTwenty
+
+Se debe crear un esquema válido que valide el documento xml teniendo en cuenta que:
+
+Se deben utilizar los tipos de datos primitivos adecuados donde proceda si no hay otra restricción.
+identificadores, booleanos, enteros, decimales, fecha, hora, fecha-hora, cadenas, ...
+
+El elemento ID del encabezado debe empezar por "AMBS20" e ir seguido del número exacto de dígitos correspondientes
+
+El tipo del elemento "Name" debe ser reutilizado y siempre tendrá obligatoriamente el atributo "lang".
+
+El email debe tener un patrón de 64 caracteres seguido de la arroba 59 caracteres, el punto y dos o tres letras minúsculas.
+
+Los atributos que tengan por valor una letra mayúscula deberán utilizar una restricción para ello.
+
+El número de ocurrencias de los elementos sólo debe aparecer cuando es imprescindible para validar el documento.
+
+Los atributos con valores mayores de un millón y menores de veinte mil millones deben tener esa restricción incluyendo ambos valores citados.
+
+Los atributos con código de seguridad deben ir validados con un patrón que:
+-empiece por una combinación de cuatro caracteres que pueden ser letras mayúsculas sin tildes y números.
+-entre espacios puede aparecer un número de un dígito entero o con un decimal.
+-al final aparecerán dos dígitos seguidos de una barra y otros dos dígitos.
+
+
+Si el propio esquema xsd no se valida conforme a las reglas de un propio esquema (-1/error).
+Si el documento xml no se valida conforme al esquema (-1/error).
+Si no se declarán atributos (-0.5/atributo).
+Si no se utiliza el tipo de dato primitivo adecuado (-0.25/tipo).
+Tipo Name incorrecto (-1.5).
+No reutilizar tipos definidos que se repitan (-1/cada).
+Tipo Email incorrecto (-1.5).
+Tipo una letra mayúscula incorrecto (-1).
+Redundancia del número de ocurrencias (-0.5/cada).
+Tipo números millonarios (-1).
+Tipo código seguridad incorrecto (-1.5).
+NO puede aparecer NI choice NI any en las definiciones (hasta -10).
+

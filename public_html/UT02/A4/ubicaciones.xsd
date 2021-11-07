@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ubicaciones" type="ubicacionesType"/>
+    
+    <xs:complexType name="ubicacionesType">
+        <xs:sequence>
+            <xs:element name="ubicacion" type="ubicacionType"
+                        minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ubicacionType">
+        <xs:simpleContent>
+            <xs:extension base="cardiType">
+                <xs:attribute name="metros" type="metrosType"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="cardiType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="norte|sur|este|oeste"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="metrosType">
+        <xs:restriction base="xs:positiveInteger">
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
