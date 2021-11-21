@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mondial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="mondial3.xsd">
+    <organization id="org-ACP" headq="cty-Belgium-Brussels">
+        <name>African, Caribbean, and Pacific Countries</name>
+        <abbrev>ACP</abbrev>
+        <established>1976-04-01</established>
+        <members type="member" country="PNG AG BS BDS BZ WD DOM RH WG JA KN WL WV TT FJI KIR SLB TO TUV VU WS GUY SME RMM RIM RN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL COOK NIUE"/>
+    </organization>
+    <organization id="org-AfDB" headq="cty-CI-8">
+        <name>African Development Bank</name>
+        <abbrev>AfDB</abbrev>
+        <established>1963-08-04</established>
+        <members type="regional member" country="ET DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY"/>
+        <members type="nonregional member" country="F E A D I CH B NL DK SF N S P GB CN IND KWT SA J ROK UAE CDN USA RA BR"/>
+    </organization>
+    <organization id="org-ACCT" headq="cty-France-Paris">
+        <name>Agency for Cultural and Technical Cooperation</name>
+        <abbrev>ACCT</abbrev>
+        <established>1970-03-21</established>
+        <members type="member" country="F B L BG RO MC LAO K VN RL CDN WD RH VU RMM RN TN RCB ZRE BEN BF RT CI BI RWA CAM RCA TCH GQ G COM RG DJI SN RM MS SY"/>
+        <members type="associate member" country="ET WL RIM MA GNB"/>
+    </organization>
+    <organization id="org-OPANAL" headq="cty-Mexico-Mexico-City">
+        <name>Agency for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</name>
+        <abbrev>OPANAL</abbrev>
+        <established>1967-02-14</established>
+        <members type="member" country="AG BS BDS BZ GCA MEX CR NIC PA WD DOM RH ES HCA WG JA CO WV TT RA BOL BR RCH PY ROU PE SME YV EC"/>
+    </organization>
+    <organization id="org-AG" headq="cty-Peru-Lima">
+        <name>Andean Group</name>
+        <abbrev>AG</abbrev>
+        <established>1969-05-26</established>
+        <members type="member" country="CO BOL PE YV EC"/>
+        <members type="associate member" country="PA"/>
+        <members type="observer" country="F E A D I CH B NL DK SF S GB IND IL ET J MEX CDN USA CR AUS RA BR PY ROU"/>
+    </organization>
+    <organization id="org-ABEDA" headq="cty-Sudan-Khartoum">
+        <name>Arab Bank for Economic Development in Africa</name>
+        <abbrev>ABEDA</abbrev>
+        <established>1974-02-18</established>
+        <members type="member" country="BRN ET IRQ JOR KWT SA SYR RL OM UAE Q DZ LAR RIM MA TN SUD"/>
+    </organization>
+    <organization id="org-ACC">
+        <name>Arab Cooperation Council</name>
+        <abbrev>ACC</abbrev>
+        <established>1989-02-16</established>
+        <members type="member" country="ET IRQ JOR YE"/>
+    </organization>
+    <organization id="org-AFESD">
+        <name>Arab Fund for Economic and Social Development</name>
+        <abbrev>AFESD</abbrev>
+        <established>1968-05-16</established>
+        <members type="member" country="BRN ET IRQ JOR KWT SA SYR RL OM UAE YE Q DZ LAR RIM MA TN SUD DJI SP"/>
+    </organization>
+    <organization id="org-AL" headq="cty-Egypt-Cairo">
+        <name>Arab League</name>
+        <abbrev>AL</abbrev>
+        <established>1945-03-22</established>
+        <members type="member" country="BRN ET IRQ JOR KWT SA SYR RL OM UAE YE Q DZ LAR RIM MA TN SUD COM DJI SP"/>
+    </organization>
+    <organization id="org-AMU" headq="cty-MA-10">
+        <name>Arab Maghreb Union</name>
+        <abbrev>AMU</abbrev>
+        <established>1989-02-17</established>
+        <members type="member" country="DZ LAR RIM MA TN"/>
+    </organization>
+    <organization id="org-AMF" headq="cty-United-Arab-Emirates-3">
+        <name>Arab Monetary Fund</name>
+        <abbrev>AMF</abbrev>
+        <established>1976-04-27</established>
+        <members type="member" country="BRN ET IRQ JOR KWT SA SYR RL OM UAE YE Q DZ LAR RIM MA TN SUD SP"/>
+    </organization>
+    <organization id="org-APEC" headq="cty-Singapore-Singapore">
+        <name>Asia Pacific Economic Cooperation</name>
+        <abbrev>APEC</abbrev>
+        <established>1989-11-07</established>
+        <members type="member" country="CN PNG J ROK RC MEX CDN USA NZ RCH HONX"/>
+    </organization>
+    <organization id="org-AsDB" headq="cty-RP-13">
+        <name>Asian Development Bank</name>
+        <abbrev>AsDB</abbrev>
+        <established>1966-12-19</established>
+        <members type="regional member" country="AFG CN PK UZB BD MYA IND BHT MAL LAO THA K VN KAZ KGZ MNG NEP RI PNG J ROK MV RP SGP CL RC AUS FJI KIR MH NAU NZ SLB TO TUV VU WS"/>
+        <members type="nonregional member" country="F E A D I CH B NL TR DK SF N S GB CDN USA"/>
+    </organization>
+    <organization id="org-ASEAN" headq="cty-RI-11">
+        <name>Association of Southeast Asian Nations</name>
+        <abbrev>ASEAN</abbrev>
+        <established>1967-08-09</established>
+        <members type="member" country="BRU MAL THA VN RI RP SGP"/>
+        <members type="observer" country="LAO"/>
+    </organization>
+    <organization id="org-Mekong-Group">
+        <name>ASEAN-Mekong Basin Development Group</name>
+        <abbrev>Mekong Group</abbrev>
+        <established>1995-12-01</established>
+        <members type="member" country="CN MYA BRU MAL LAO THA K VN RI RP SGP"/>
+    </organization>
+    <organization id="org-ANZUS" headq="cty-Australia-8">
+        <name>Australia-New Zealand-United States Security Treaty</name>
+        <abbrev>ANZUS</abbrev>
+        <established>1951-09-01</established>
+        <members type="member" country="USA AUS NZ"/>
+    </organization>
+    <organization id="org-BIS" headq="cty-Switzerland-3">
+        <name>Bank for International Settlements</name>
+        <abbrev>BIS</abbrev>
+        <established>1930-01-20</established>
+        <members type="member" country="GR F E A CZ D H I SK CH LV LT PL B NL BG RO TR DK EW SF N S IS IRL P GB J CDN USA AUS RSA HONX"/>
+    </organization>
+    <organization id="org-Benelux" headq="cty-Belgium-Brussels">
+        <name>Benelux Economic Union</name>
+        <abbrev>Benelux</abbrev>
+        <established>1958-02-03</established>
+        <members type="member" country="B L NL"/>
+    </organization>
+    <organization id="org-BSEC">
+        <name>Black Sea Economic Cooperation Zone</name>
+        <abbrev>BSEC</abbrev>
+        <established>1992-06-25</established>
+        <members type="member" country="AL GR UA R BG RO TR MD ARM GE AZ"/>
+        <members type="observer" country="SK PL IL ET TN SRB"/>
+    </organization>
+    <organization id="org-Caricom" headq="cty-Guyana-Georgetown">
+        <name>Caribbean Community and Common Market</name>
+        <abbrev>Caricom</abbrev>
+        <established>1973-07-04</established>
+        <members type="member" country="AG BS BDS BZ WD WG JA MNTS KN WL WV TT GUY SME"/>
+        <members type="associate member" country="BVIR TUCA"/>
+        <members type="observer" country="AXA MEX BERM CAYM DOM RH NA PR YV ARU"/>
+    </organization>
+    <organization id="org-CDB">
+        <name>Caribbean Development Bank</name>
+        <abbrev>CDB</abbrev>
+        <established>1969-10-18</established>
+        <members type="regional member" country="AXA AG BS BDS BZ MEX BVIR CAYM WD WG JA MNTS CO KN WL WV TT TUCA GUY YV"/>
+        <members type="nonregional member" country="F D I GB CDN"/>
+    </organization>
+    <organization id="org-UDEAC" headq="cty-Central-African-Republic-Bangui">
+        <name>Central African Customs and Economic Union</name>
+        <abbrev>UDEAC</abbrev>
+        <established>1964-12-08</established>
+        <members type="member" country="RCB CAM RCA TCH GQ G"/>
+    </organization>
+    <organization id="org-BDEAC" headq="cty-RCB-11">
+        <name>Central African States Development Bank</name>
+        <abbrev>BDEAC</abbrev>
+        <established>1975-12-03</established>
+        <members type="member" country="F D KWT RCB CAM RCA TCH GQ G"/>
+    </organization>
+    <organization id="org-BCIE" headq="cty-Honduras-Tegucigalpa">
+        <name>Central American Bank for Economic Integration</name>
+        <abbrev>BCIE</abbrev>
+        <established>1960-12-13</established>
+        <members type="member" country="GCA CR NIC ES HCA"/>
+        <members type="nonregional member" country="RC MEX RA YV"/>
+    </organization>
+    <organization id="org-CACM" headq="cty-Guatemala-Guatemala-City">
+        <name>Central American Common Market</name>
+        <abbrev>CACM</abbrev>
+        <established>1960-12-13</established>
+        <members type="member" country="GCA CR NIC ES HCA"/>
+    </organization>
+    <organization id="org-CEI" headq="cty-Hungary-Budapest">
+        <name>Central European Initiative</name>
+        <abbrev>CEI</abbrev>
+        <established>1991-07-27</established>
+        <members type="member" country="MK A CZ H I SK SLO PL BIH HR"/>
+        <members type="associate member" country="BY UA BG RO SRB MNE"/>
+    </organization>
+    <organization id="org-CP" headq="cty-Sri-Lanka-Colombo">
+        <name>Colombo Plan</name>
+        <abbrev>CP</abbrev>
+        <established>1951-07-01</established>
+        <members type="member" country="AFG IR PK BD MYA IND BHT MAL LAO THA K NEP RI PNG J ROK MV RP SGP CL USA AUS FJI NZ"/>
+    </organization>
+    <organization id="org-C" headq="cty-United-Kingdom-2">
+        <name>Commonwealth</name>
+        <abbrev>C</abbrev>
+        <established>1931-12-31</established>
+        <members type="member" country="M GB PK BD IND BRU MAL CY PNG MV SGP CL AG BS BDS BZ CDN WD WG JA KN WL WV TT AUS KIR NZ SLB TO VU WS GUY NAM Z WAN RB RSA ZW GH EAT EAK WAG WAL EAU LS MW MS SD SY"/>
+        <members type="special member" country="NAU TUV"/>
+    </organization>
+    <organization id="org-CIS" headq="cty-Belarus-Minsk">
+        <name>Commonwealth of Independent States</name>
+        <abbrev>CIS</abbrev>
+        <established>1991-12-08</established>
+        <members type="member" country="BY UA R MD TAD TM UZB ARM GE AZ KAZ KGZ"/>
+    </organization>
+    <organization id="org-CAEU" headq="cty-Jordan-Amman">
+        <name>Council of Arab Economic Unity</name>
+        <abbrev>CAEU</abbrev>
+        <established>1957-06-03</established>
+        <members type="member" country="ET IRQ JOR KWT SYR UAE YE LAR RIM SUD SP"/>
+    </organization>
+    <organization id="org-CE" headq="cty-France-Strasbourg">
+        <name>Council of Europe</name>
+        <abbrev>CE</abbrev>
+        <established>1949-05-05</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH LV LT PL UA R B L NL BG RO TR DK EW SF N S IS IRL RSM M MD P GB CY SRB MNE"/>
+        <members type="observer" country="IL"/>
+        <members type="guest" country="BY BIH HR"/>
+    </organization>
+    <organization id="org-CBSS">
+        <name>Council of the Baltic Sea States</name>
+        <abbrev>CBSS</abbrev>
+        <established>1992-03-05</established>
+        <members type="member" country="D LV LT PL R DK EW SF N S"/>
+    </organization>
+    <organization id="org-Entente" headq="cty-CI-8">
+        <name>Council of the Entente</name>
+        <abbrev>Entente</abbrev>
+        <established>1959-05-29</established>
+        <members type="member" country="RN BEN BF RT CI"/>
+    </organization>
+    <organization id="org-CCC" headq="cty-Belgium-Brussels">
+        <name>Customs Cooperation Council</name>
+        <abbrev>CCC</abbrev>
+        <established>1950-12-15</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S IS IRL M MD P GB CN IR PK TM UZB ARM GE AZ BD MYA IND MAL THA VN KAZ MNG NEP CY IL ET RI IRQ JOR KWT SA SYR RL J ROK UAE YE RP Q SGP CL BS GCA MEX CDN USA C RH JA CO TT AUS NZ RA BR RCH PY ROU PE GUY DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA G CV SUD COM RG LB ETH EAK WAG SN WAL EAU LS RM MW MOC MS SD"/>
+    </organization>
+    <organization id="org-EADB" headq="cty-Uganda-Kampala">
+        <name>East African Development Bank</name>
+        <abbrev>EADB</abbrev>
+        <established>1967-06-06</established>
+        <members type="member" country="EAT EAK EAU"/>
+    </organization>
+    <organization id="org-ESCAP" headq="cty-Thailand-Bangkok">
+        <name>Economic and Social Commission for Asia and the Pacific</name>
+        <abbrev>ESCAP</abbrev>
+        <established>1947-03-28</established>
+        <members type="member" country="F R NL GB AFG CN IR PK TAD TM UZB ARM AZ BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP RI PNG J ROK MV RP SGP CL USA AUS FJI KIR MH NAU NZ SLB TO TUV VU WS"/>
+        <members type="associate member" country="FPOL NMIS PAL"/>
+    </organization>
+    <organization id="org-ESCWA" headq="cty-Jordan-Amman">
+        <name>Economic and Social Commission for Western Asia</name>
+        <abbrev>ESCWA</abbrev>
+        <established>1973-08-09</established>
+        <members type="member" country="BRN ET IRQ JOR KWT SA SYR RL OM UAE YE Q"/>
+    </organization>
+    <organization id="org-ECA" headq="cty-ETH-1">
+        <name>Economic Commission for Africa</name>
+        <abbrev>ECA</abbrev>
+        <established>1958-04-29</established>
+        <members type="member" country="ET DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY"/>
+        <members type="associate member" country="F GB"/>
+    </organization>
+    <organization id="org-ECE" headq="cty-Switzerland-4">
+        <name>Economic Commission for Europe</name>
+        <abbrev>ECE</abbrev>
+        <established>1947-03-28</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P GB TAD TM UZB ARM GE AZ KAZ KGZ CY IL CDN USA"/>
+    </organization>
+    <organization id="org-ECLAC" headq="cty-Chile-13">
+        <name>Economic Commission for Latin America and the Caribbean</name>
+        <abbrev>ECLAC</abbrev>
+        <established>1948-02-25</established>
+        <members type="member" country="F E I NL P GB AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT RA BOL BR RCH PY ROU PE GUY SME YV EC"/>
+        <members type="associate member" country="BVIR VIRG"/>
+    </organization>
+    <organization id="org-CEEAC" headq="cty-Gabon-Libreville">
+        <name>Economic Community of Central African States</name>
+        <abbrev>CEEAC</abbrev>
+        <established>1983-10-18</established>
+        <members type="member" country="RCB ZRE BI RWA CAM RCA TCH GQ G STP"/>
+        <members type="observer" country="ANG"/>
+    </organization>
+    <organization id="org-CEPGL">
+        <name>Economic Community of the Great Lakes Countries</name>
+        <abbrev>CEPGL</abbrev>
+        <established>1976-09-26</established>
+        <members type="member" country="ZRE BI RWA"/>
+    </organization>
+    <organization id="org-ECOWAS" headq="cty-WAN-25">
+        <name>Economic Community of West African States</name>
+        <abbrev>ECOWAS</abbrev>
+        <established>1975-05-28</established>
+        <members type="member" country="RMM RIM RN BEN BF WAN RT CI GH CV RG LB WAG SN GNB WAL"/>
+    </organization>
+    <organization id="org-ECO" headq="cty-Iran-Tehran">
+        <name>Economic Cooperation Organization</name>
+        <abbrev>ECO</abbrev>
+        <established>1985-01-01</established>
+        <members type="member" country="TR AFG IR PK TAD TM UZB AZ KAZ KGZ"/>
+    </organization>
+    <organization id="org-EBRD" headq="cty-United-Kingdom-2">
+        <name>European Bank for Reconstruction and Development</name>
+        <abbrev>EBRD</abbrev>
+        <established>1991-04-15</established>
+        <members type="member" country="AL GR MK F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S IS IRL M MD P GB TAD TM UZB ARM GE AZ KAZ KGZ CY IL ET J ROK MEX CDN USA AUS NZ MA SRB MNE"/>
+    </organization>
+    <organization id="org-EFTA" headq="cty-Switzerland-4">
+        <name>European Free Trade Association</name>
+        <abbrev>EFTA</abbrev>
+        <established>1960-01-04</established>
+        <members type="member" country="FL CH N IS"/>
+    </organization>
+    <organization id="org-EIB" headq="cty-Luxembourg-Luxembourg">
+        <name>European Investment Bank</name>
+        <abbrev>EIB</abbrev>
+        <established>1957-03-25</established>
+        <members type="member" country="GR F E A D I B L NL DK SF S IRL P GB"/>
+    </organization>
+    <organization id="org-CERN" headq="cty-Switzerland-4">
+        <name>European Organization for Nuclear Research</name>
+        <abbrev>CERN</abbrev>
+        <established>1953-07-01</established>
+        <members type="member" country="GR F E A CZ D H I SK CH PL B NL DK SF N S P GB"/>
+        <members type="observer" country="R TR IL"/>
+    </organization>
+    <organization id="org-ESA" headq="cty-France-Paris">
+        <name>European Space Agency</name>
+        <abbrev>ESA</abbrev>
+        <established>1973-07-31</established>
+        <members type="member" country="F E A D I CH B NL DK SF N S IRL GB"/>
+        <members type="cooperating state" country="CDN"/>
+    </organization>
+    <organization id="org-EU" headq="cty-Belgium-Brussels">
+        <name>European Union</name>
+        <abbrev>EU</abbrev>
+        <established>1992-02-07</established>
+        <members type="member" country="GR F E A D I B L NL DK SF S IRL P GB CZ H SK LV LT PL BG RO EW M CY SLO"/>
+        <members type="membership applicant" country="MK HR TR"/>
+    </organization>
+    <organization id="org-FAO" headq="cty-Italy-Rome">
+        <name>Food and Agriculture Organization</name>
+        <abbrev>FAO</abbrev>
+        <established>1945-10-16</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH LV LT PL B L NL BIH HR BG RO TR DK EW SF N S IS IRL M MD P GB AFG CN IR PK TAD TM ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL COOK NIUE"/>
+    </organization>
+    <organization id="org-FZ" headq="cty-France-Paris">
+        <name>Franc Zone</name>
+        <abbrev>FZ</abbrev>
+        <established>1945-12-20</established>
+        <members type="member" country="F RMM RN RCB BEN BF RT CI CAM RCA TCH GQ G COM SN"/>
+    </organization>
+    <organization id="org-G-2">
+        <name>Group of 2</name>
+        <abbrev>G-2</abbrev>
+        <members type="member" country="J USA"/>
+    </organization>
+    <organization id="org-G-3">
+        <name>Group of 3</name>
+        <abbrev>G-3</abbrev>
+        <established>1990-10-01</established>
+        <members type="member" country="MEX CO YV"/>
+    </organization>
+    <organization id="org-G-5">
+        <name>Group of 5</name>
+        <abbrev>G-5</abbrev>
+        <established>1985-09-22</established>
+        <members type="member" country="F D GB J USA"/>
+    </organization>
+    <organization id="org-G-6">
+        <name>Group of 6</name>
+        <abbrev>G-6</abbrev>
+        <established>1984-05-22</established>
+        <members type="member" country="GR S IND MEX RA EAT"/>
+    </organization>
+    <organization id="org-G-7">
+        <name>Group of 7</name>
+        <abbrev>G-7</abbrev>
+        <established>1985-09-22</established>
+        <members type="member" country="F D I GB J CDN USA"/>
+    </organization>
+    <organization id="org-G-8">
+        <name>Group of 8</name>
+        <abbrev>G-8</abbrev>
+        <established>1975-10-01</established>
+        <members type="member" country="F D I R GB J CDN USA"/>
+    </organization>
+    <organization id="org-G-9">
+        <name>Group of 9</name>
+        <abbrev>G-9</abbrev>
+        <members type="member" country="A H B BG RO DK SF S SRB"/>
+    </organization>
+    <organization id="org-G-10" headq="cty-France-Paris">
+        <name>Group of 10</name>
+        <abbrev>G-10</abbrev>
+        <established>1962-10-01</established>
+        <members type="member" country="F D I CH B NL S GB J CDN USA"/>
+    </organization>
+    <organization id="org-G-11">
+        <name>Group of 11</name>
+        <abbrev>G-11</abbrev>
+        <established>1984-06-22</established>
+        <members type="member" country="MEX DOM CO RA BOL BR RCH ROU PE YV EC"/>
+    </organization>
+    <organization id="org-G-15" headq="cty-Switzerland-4">
+        <name>Group of 15</name>
+        <abbrev>G-15</abbrev>
+        <members type="member" country="IND MAL ET RI MEX JA RA BR PE YV DZ WAN ZW SN"/>
+    </organization>
+    <organization id="org-G-19">
+        <name>Group of 19</name>
+        <abbrev>G-19</abbrev>
+        <established>1975-10-01</established>
+        <members type="member" country="IR PK IND ET RI IRQ SA MEX JA RA BR PE YV DZ ZRE Z WAN CAM"/>
+    </organization>
+    <organization id="org-G-24" headq="cty-Belgium-Brussels">
+        <name>Group of 24</name>
+        <abbrev>G-24</abbrev>
+        <established>1972-01-01</established>
+        <members type="member" country="IR PK IND ET SYR RL RP CL GCA MEX CO TT RA BR PE YV DZ ZRE WAN CI GH G ETH"/>
+    </organization>
+    <organization id="org-G-77">
+        <name>Group of 77</name>
+        <abbrev>G-77</abbrev>
+        <established>1967-10-01</established>
+        <members type="member" country="RO M AFG IR PK BRN BD MYA IND BHT BRU MAL LAO THA K VN NOK MNG NEP CY ET RI PNG IRQ JOR KWT SA SYR RL ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT FJI SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL"/>
+    </organization>
+    <organization id="org-GCC" headq="cty-SA-6">
+        <name>Gulf Cooperation Council</name>
+        <abbrev>GCC</abbrev>
+        <established>1981-05-25</established>
+        <members type="member" country="BRN KWT SA OM UAE Q"/>
+    </organization>
+    <organization id="org-IADB" headq="cty-United-States-22">
+        <name>Inter-American Development Bank</name>
+        <abbrev>IADB</abbrev>
+        <established>1959-04-08</established>
+        <members type="member" country="F E A D I SLO CH B NL HR DK SF N S P GB IL J BS BDS BZ GCA MEX CDN USA CR NIC PA DOM RH ES HCA JA CO TT RA BOL BR RCH PY ROU PE GUY SME YV EC"/>
+    </organization>
+    <organization id="org-IGADD" headq="cty-Djibouti-Djibouti">
+        <name>Inter-Governmental Authority on Drought and Development</name>
+        <abbrev>IGADD</abbrev>
+        <established>1986-01-15</established>
+        <members type="member" country="SUD DJI ER ETH SP EAK EAU"/>
+    </organization>
+    <organization id="org-IAEA" headq="cty-Austria-Vienna">
+        <name>International Atomic Energy Agency</name>
+        <abbrev>IAEA</abbrev>
+        <established>1956-10-26</established>
+        <members type="member" country="AL GR MK F E A CZ D H I FL SK SLO CH BY LT PL UA R B L NL HR BG RO TR DK EW SF N S MC V IS IRL P GB AFG CN IR PK UZB ARM BD MYA IND MAL THA K VN KAZ MNG CY IL ET RI IRQ JOR KWT SA SYR RL J ROK UAE YE RP Q SGP CL GCA MEX CDN USA CR NIC PA C DOM RH ES JA CO AUS MH NZ RA BOL BR RCH PY ROU PE YV EC DZ LAR RMM MA RN TN NAM ZRE Z WAN RSA ZW CI GH EAT CAM G SUD LB ETH EAK SN WAL EAU RM MS SRB MNE"/>
+    </organization>
+    <organization id="org-IBRD" headq="cty-United-States-22">
+        <name>International Bank for Reconstruction and Development</name>
+        <abbrev>IBRD</abbrev>
+        <established>1944-07-22</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S IS IRL M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI KIR MH NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+    </organization>
+    <organization id="org-ICC" headq="cty-France-Paris">
+        <name>International Chamber of Commerce</name>
+        <abbrev>ICC</abbrev>
+        <established>1919-01-01</established>
+        <members type="member" country="GR F E A D I CH B L NL TR DK SF N S IS IRL P GB IR PK IND CY IL ET RI JOR KWT SA SYR RL J ROK SGP CL RC MEX CDN USA CO AUS RA BR ROU YV EC MA TN ZRE BF WAN RT RSA CI CAM G SN RM HONX SRB"/>
+    </organization>
+    <organization id="org-ICAO" headq="cty-Canada-2">
+        <name>International Civil Aviation Organization</name>
+        <abbrev>ICAO</abbrev>
+        <established>1944-12-07</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C DOM RH ES HCA WG JA CO WL WV TT AUS COOK FJI KIR MH NAU NZ SLB TO VU RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+    </organization>
+    <organization id="org-ICFTU" headq="cty-Belgium-Brussels">
+        <name>International Confederation of Free Trade Unions</name>
+        <abbrev>ICFTU</abbrev>
+        <established>1949-12-01</established>
+        <members type="member" country="GR F E A CZ D I SK CH PL B L NL BG RO TR DK EW SF N S V IS RSM M P GB CN PK BD IND MAL THA CY IL RI PNG RL J ROK RP SGP CL AG BS BDS BZ GCA MEX BERM CDN USA CR NIC PA WD DOM ES HCA WG JA CO KN WL WV TT AUS FJI FPOL KIR NZ TO WS RA BR RCH PY PE GUY SME YV EC RMM MA TN Z BEN BF RT RB ZW GH RWA CAM TCH G CV LB EAK WAG SN WAL EAU LS RM MW MS SD HELX SY"/>
+    </organization>
+    <organization id="org-Interpol" headq="cty-France-Lyon">
+        <name>International Criminal Police Organization</name>
+        <abbrev>Interpol</abbrev>
+        <established>1956-06-13</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL M MD P GB CN IR PK UZB ARM GE AZ BRN BD MYA IND BRU MAL LAO THA K VN KAZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG ARU BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA NA CO KN WL WV TT AUS FJI KIR MH NAU NZ TO RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD SSD RG LB DJI ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+        <members type="subbureau" country="GBZ AXA BERM BVIR CAYM MNTS PR TUCA AMSA"/>
+    </organization>
+    <organization id="org-IDA" headq="cty-United-States-22">
+        <name>International Development Association</name>
+        <abbrev>IDA</abbrev>
+        <established>1960-01-26</established>
+        <members type="Part I" country="F A D I CH R B L NL DK SF N S IS IRL GB KWT J UAE CDN USA AUS NZ RSA"/>
+        <members type="Part II" country="AL GR MK E CZ H SK SLO LV PL HR TR MD P AFG CN IR PK TAD UZB ARM GE AZ BD MYA IND BHT MAL LAO THA K VN KAZ KGZ MNG NEP CY IL ET RI PNG IRQ JOR SA SYR RL ROK MV OM YE RP CL BZ GCA MEX CR NIC PA WD DOM RH ES HCA WG CO KN WL WV TT FJI KIR MH SLB TO VU WS RA BOL BR RCH PY PE GUY EC DZ LAR RMM RIM MA RN TN ANG RCB ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SRB MNE TL"/>
+    </organization>
+    <organization id="org-IEA" headq="cty-France-Paris">
+        <name>International Energy Agency</name>
+        <abbrev>IEA</abbrev>
+        <established>1974-11-15</established>
+        <members type="member" country="GR F E A D I CH B L NL TR DK SF N S IRL P GB J CDN USA AUS NZ"/>
+    </organization>
+    <organization id="org-IFRCS" headq="cty-Switzerland-4">
+        <name>International Federation of Red Cross and Red Crescent Societies</name>
+        <abbrev>IFRCS</abbrev>
+        <established>1919-05-05</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S MC IS IRL RSM M P GB AFG CN IR PK TM UZB ARM AZ BRN BD MYA IND MAL LAO THA K VN NOK MNG NEP ET RI PNG IRQ JOR KWT SA SYR RL J ROK UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ CV SUD RG LB DJI ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL COOK"/>
+        <members type="associate member" country="CY KIR TUV G COM"/>
+    </organization>
+    <organization id="org-IFC" headq="cty-United-States-22">
+        <name>International Finance Corporation</name>
+        <abbrev>IFC</abbrev>
+        <established>1955-05-25</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S IS IRL MD P GB AFG CN IR PK TAD UZB ARM GE BD MYA IND MAL LAO THA VN KAZ KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA WD DOM RH ES HCA WG JA CO WL TT AUS FJI KIR MH NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA GQ G CV SUD COM RG LB DJI ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD SY SRB MNE TL"/>
+    </organization>
+    <organization id="org-IFAD" headq="cty-Italy-Rome">
+        <name>International Fund for Agricultural Development</name>
+        <abbrev>IFAD</abbrev>
+        <established>1974-11-01</established>
+        <members type="Category I" country="GR F E A D I CH B L NL DK SF N S IRL GB J CDN USA AUS NZ"/>
+        <members type="Category II" country="IR RI IRQ KWT SA UAE Q YV DZ LAR WAN G"/>
+        <members type="Category III" country="AL MK BIH HR RO TR M P AFG CN PK TAD ARM GE AZ BD MYA IND BHT MAL LAO THA K VN NOK KGZ MNG NEP CY IL ET PNG JOR SYR RL ROK MV OM YE RP CL AG BDS BZ GCA MEX CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT COOK FJI SLB TO WS RA BOL BR RCH PY ROU PE GUY SME EC RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL NIUE"/>
+    </organization>
+    <organization id="org-ILO" headq="cty-Switzerland-4">
+        <name>International Labor Organization</name>
+        <abbrev>ILO</abbrev>
+        <established>1919-04-11</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND MAL LAO THA K VN KAZ KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO WL WV TT AUS FJI NZ SLB RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL ARU NA"/>
+    </organization>
+    <organization id="org-IMO" headq="cty-United-Kingdom-2">
+        <name>International Maritime Organization</name>
+        <abbrev>IMO</abbrev>
+        <established>1958-03-17</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH LV PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL M P GB CN IR PK TM GE AZ BRN BD MYA IND BRU MAL THA K VN KAZ NOK NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA JA CO WL WV TT AUS FJI NZ SLB VU RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RIM MA TN ANG RCB NAM ZRE BEN WAN RT RSA CI GH EAT CAM GQ G CV SUD RG LB DJI ER ETH SP EAK WAG SN GNB WAL RM MW MOC MS STP SY SRB MNE TL"/>
+        <members type="associated" country="HONX MACX"/>
+    </organization>
+    <organization id="org-Inmarsat" headq="cty-United-Kingdom-2">
+        <name>International Mobile Satellite Organization</name>
+        <abbrev>Inmarsat</abbrev>
+        <established>1976-09-03</established>
+        <members type="member" country="GR F E CZ D I SK CH BY PL UA R B NL HR BG RO TR DK SF N S MC IS M P GB CN IR PK GE BRN BD IND BRU MAL CY IL ET RI IRQ KWT SA J ROK OM UAE RP Q SGP CL BS MEX CDN USA PA C CO AUS NZ RA BR RCH PE DZ TN WAN RSA CAM G LB SN MOC MS"/>
+    </organization>
+    <organization id="org-IMF" headq="cty-United-States-22">
+        <name>International Monetary Fund</name>
+        <abbrev>IMF</abbrev>
+        <established>1944-07-22</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL HR BG RO TR DK EW SF N S IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI KIR MH NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY HONX MACX SRB MNE TL ARU NA"/>
+    </organization>
+    <organization id="org-IOC" headq="cty-Switzerland-6">
+        <name>International Olympic Committee</name>
+        <abbrev>IOC</abbrev>
+        <established>1894-06-23</established>
+        <members type="National Olympic Committee" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL RC AG ARU BS BDS BZ GCA MEX BERM BVIR CDN USA CAYM CR NIC PA C WD DOM RH ES HCA WG JA NA CO PR KN WL WV TT VIRG AMSA AUS COOK FJI GUAM NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ETH SP EAK WAG SN WAL EAU LS RM MW MOC MS SD REUN STP SY HONX SRB MNE TL"/>
+    </organization>
+    <organization id="org-IOM" headq="cty-Switzerland-4">
+        <name>International Organization for Migration</name>
+        <abbrev>IOM</abbrev>
+        <established>1951-12-05</established>
+        <members type="member" country="AL GR F A D H I CH PL B L NL HR BG DK SF N S P PK TAD ARM BD THA CY IL ET J ROK RP CL GCA CDN USA CR NIC PA DOM RH ES HCA CO AUS RA BOL RCH PY ROU PE YV EC ANG Z EAK EAU SRB MNE"/>
+        <members type="observer" country="E CZ SK SLO BY LV UA R BIH RO TR V RSM M MD GB AFG IR GE IND VN KGZ RI JOR BZ MEX NZ BR MA NAM ZW GH RWA CV SUD LB SP GNB MOC STP"/>
+    </organization>
+    <organization id="org-ISO" headq="cty-Switzerland-4">
+        <name>International Organization for Standardization</name>
+        <abbrev>ISO</abbrev>
+        <established>1947-02-01</established>
+        <members type="member" country="AL GR F E A CZ D H I SK SLO CH BY PL UA R B NL HR BG RO TR DK SF N S IS IRL P GB CN IR PK UZB BD IND MAL THA VN NOK MNG CY IL ET RI SA SYR J ROK RP SGP CL MEX CDN USA C JA CO TT AUS NZ RA BR RCH ROU YV DZ LAR MA TN RSA ZW EAT ETH EAK SRB MNE"/>
+        <members type="correspondent member" country="LT EW M TM BRN BRU NEP PNG JOR KWT OM UAE Q BDS PE EAU MW MS HONX MACX"/>
+        <members type="subscriber member" country="AG WG WL BI"/>
+    </organization>
+    <organization id="org-ICRM" headq="cty-Switzerland-4">
+        <name>International Red Cross and Red Crescent Movement</name>
+        <abbrev>ICRM</abbrev>
+        <established>1928-01-01</established>
+        <members type="National Society" country="AL GR F E A CZ D H I FL SK SLO CH LV LT PL UA R B L NL HR BG RO TR DK EW SF N S MC IS IRL RSM M P GB AFG CN IR PK BRN BD MYA IND MAL LAO THA K VN NOK MNG NEP ET RI PNG IRQ JOR KWT SA SYR RL J ROK UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH CV SUD RG LB DJI ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE COOK"/>
+    </organization>
+    <organization id="org-ITU" headq="cty-Switzerland-4">
+        <name>International Telecommunication Union</name>
+        <abbrev>ITU</abbrev>
+        <established>1932-12-09</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC V IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C DOM RH ES HCA WG JA CO WV TT AUS FJI KIR NAU NZ SLB TO VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD SSD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SRB MNE"/>
+    </organization>
+    <organization id="org-Intelsat" headq="cty-United-States-22">
+        <name>International Telecommunications Satellite Organization</name>
+        <abbrev>Intelsat</abbrev>
+        <established>1971-08-20</established>
+        <members type="member" country="GR F E A CZ D H I FL CH PL R B L NL HR RO TR DK SF N S MC V IS IRL M P GB AFG CN IR PK ARM AZ BRN BD IND BHT BRU MAL THA VN KAZ KGZ NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK OM UAE YE RP Q SGP CL BS BDS GCA MEX CDN USA CR NIC PA DOM RH ES HCA JA CO TT AUS FJI NZ RA BOL BR RCH PY ROU PE YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH RWA EAT CAM RCA TCH G CV SUD RG ETH SP EAK SN EAU RM MW MOC MS SD"/>
+        <members type="nonsignatory user" country="AL MK SK SLO BY LV LT UA BIH BG MD TAD TM MYA LAO K NOK MNG MV AG BZ C WL WV KIR MH NAU SLB TO TUV VU WS GUY SME BI GQ COM LB DJI ER WAG GNB WAL LS STP SY"/>
+    </organization>
+    <organization id="org-IDB" headq="cty-SA-Jeddah">
+        <name>Islamic Development Bank</name>
+        <abbrev>IDB</abbrev>
+        <established>1973-12-15</established>
+        <members type="member" country="AL TR AFG IR PK TAD TM AZ BRN BD BRU MAL KAZ KGZ ET RI IRQ JOR KWT SA SYR RL MV OM UAE YE Q DZ LAR RMM RIM MA RN TN BEN BF CAM TCH G SUD COM RG DJI SP WAG SN GNB WAL EAU MOC"/>
+    </organization>
+    <organization id="org-LAES" headq="cty-Venezuela-Caracas">
+        <name>Latin American Economic System</name>
+        <abbrev>LAES</abbrev>
+        <established>1975-10-17</established>
+        <members type="member" country="BDS BZ GCA MEX CR NIC PA C DOM RH ES HCA WG JA CO TT RA BOL BR RCH PY ROU PE GUY SME YV EC"/>
+    </organization>
+    <organization id="org-LAIA" headq="cty-Uruguay-Montevideo">
+        <name>Latin American Integration Association</name>
+        <abbrev>LAIA</abbrev>
+        <established>1980-08-12</established>
+        <members type="member" country="MEX CO RA BOL BR RCH PY ROU PE YV EC"/>
+        <members type="observer" country="E I P CN GCA CR NIC PA C DOM ES HCA"/>
+    </organization>
+    <organization id="org-MTCR">
+        <name>Missile Technology Control Regime</name>
+        <abbrev>MTCR</abbrev>
+        <established>1987-04-16</established>
+        <members type="member" country="GR F E A D H I CH R B L NL DK SF N S IS IRL P GB J CDN USA AUS NZ RA BR RSA"/>
+    </organization>
+    <organization id="org-NAM" headq="cty-RI-11">
+        <name>Nonaligned Movement</name>
+        <abbrev>NAM</abbrev>
+        <established>1961-09-01</established>
+        <members type="member" country="M AFG IR PK UZB BRN BD MYA IND BHT BRU MAL LAO THA K VN NOK MNG NEP CY ET RI PNG IRQ JOR KWT SA SYR RL MV OM UAE YE RP Q SGP CL BS BDS BZ GCA NIC PA C HCA WG JA CO WL TT VU BOL RCH PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL"/>
+        <members type="observer" country="HR CN ARM AZ AG MEX CR WD ES BR ROU"/>
+        <members type="guest" country="GR E A D H I SLO CH PL NL BIH BG RO SF N S RSM P CDN DOM AUS NZ"/>
+    </organization>
+    <organization id="org-NC" headq="cty-Sweden-Stockholm">
+        <name>Nordic Council</name>
+        <abbrev>NC</abbrev>
+        <established>1952-03-16</established>
+        <members type="member" country="DK SF N S IS"/>
+    </organization>
+    <organization id="org-NIB" headq="cty-Finland-Helsinki">
+        <name>Nordic Investment Bank</name>
+        <abbrev>NIB</abbrev>
+        <established>1975-12-04</established>
+        <members type="member" country="DK SF N S IS"/>
+    </organization>
+    <organization id="org-ANC" headq="cty-Belgium-Brussels">
+        <name>North Atlantic Cooperation Council</name>
+        <abbrev>ANC</abbrev>
+        <established>1991-11-08</established>
+        <members type="member" country="AL GR F E A CZ D H I SK SLO BY LV LT PL UA R B L NL BG RO TR DK EW SF N S IS M MD P GB TAD TM UZB ARM GE AZ KAZ KGZ CDN USA"/>
+    </organization>
+    <organization id="org-NATO" headq="cty-Belgium-Brussels">
+        <name>North Atlantic Treaty Organization</name>
+        <abbrev>NATO</abbrev>
+        <established>1949-09-17</established>
+        <members type="member" country="GR F E D I B L NL TR DK N IS P GB CDN USA"/>
+    </organization>
+    <organization id="org-EN">
+        <name>Nuclear Energy Agency</name>
+        <abbrev>EN</abbrev>
+        <established>1958-01-01</established>
+        <members type="member" country="GR F E A D I CH B L NL TR DK SF N S IS IRL P GB J CDN USA AUS"/>
+    </organization>
+    <organization id="org-NSG" headq="cty-Austria-Vienna">
+        <name>Nuclear Suppliers Group</name>
+        <abbrev>NSG</abbrev>
+        <members type="member" country="GR F E A CZ D H I SK CH PL UA R B L NL BG RO DK SF N S IRL P GB J ROK CDN USA AUS NZ RA BR RSA"/>
+    </organization>
+    <organization id="org-OECD" headq="cty-France-Paris">
+        <name>Organization for Economic Cooperation and Development</name>
+        <abbrev>OECD</abbrev>
+        <established>1960-12-14</established>
+        <members type="member" country="GR F E A CZ D H I CH B L NL TR DK SF N S IS IRL P GB J MEX CDN USA AUS NZ"/>
+    </organization>
+    <organization id="org-OSCE" headq="cty-Austria-Vienna">
+        <name>Organization for Security and Cooperation in Europe</name>
+        <abbrev>OSCE</abbrev>
+        <established>1995-01-01</established>
+        <members type="member" country="AL GR MK F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC V IS IRL RSM M MD P GB TAD TM UZB ARM GE AZ KAZ KGZ CY CDN USA SRB MNE"/>
+    </organization>
+    <organization id="org-OAU" headq="cty-ETH-1">
+        <name>Organization of African Unity</name>
+        <abbrev>OAU</abbrev>
+        <established>1963-05-25</established>
+        <members type="member" country="ET DZ LAR RMM RIM RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY WSA SSD"/>
+    </organization>
+    <organization id="org-OAS" headq="cty-United-States-22">
+        <name>Organization of American States</name>
+        <abbrev>OAS</abbrev>
+        <established>1948-04-30</established>
+        <members type="member" country="AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT RA BOL BR RCH PY ROU PE GUY SME YV EC"/>
+        <members type="observer" country="GR F E A D H I CH PL R B NL RO SF V P PK IND CY IL ET SA J ROK DZ MA TN ANG GQ"/>
+    </organization>
+    <organization id="org-OAPEC">
+        <name>Organization of Arab Petroleum Exporting Countries</name>
+        <abbrev>OAPEC</abbrev>
+        <established>1968-01-09</established>
+        <members type="member" country="BRN ET IRQ KWT SA SYR UAE Q DZ LAR"/>
+    </organization>
+    <organization id="org-OECS" headq="cty-Saint-Lucia-Castries">
+        <name>Organization of Eastern Caribbean States</name>
+        <abbrev>OECS</abbrev>
+        <established>1981-06-18</established>
+        <members type="member" country="AG WD WG MNTS KN WL WV"/>
+        <members type="associate member" country="AXA BVIR"/>
+    </organization>
+    <organization id="org-OPEC" headq="cty-Austria-Vienna">
+        <name>Organization of Petroleum Exporting Countries</name>
+        <abbrev>OPEC</abbrev>
+        <established>1960-09-14</established>
+        <members type="member" country="IR RI IRQ KWT SA UAE Q YV DZ LAR WAN G"/>
+    </organization>
+    <organization id="org-OIC" headq="cty-SA-Jeddah">
+        <name>Organization of the Islamic Conference</name>
+        <abbrev>OIC</abbrev>
+        <established>1969-09-22</established>
+        <members type="member" country="AL TR AFG IR PK TAD TM AZ BRN BD BRU MAL KAZ KGZ ET RI IRQ JOR KWT SA SYR RL MV OM UAE YE Q DZ LAR RMM RIM MA RN TN BEN BF CAM TCH G SUD COM RG DJI SP WAG SN GNB WAL EAU MOC"/>
+        <members type="observer" country="UZB"/>
+    </organization>
+    <organization id="org-PFP">
+        <name>Partnership for Peace</name>
+        <abbrev>PFP</abbrev>
+        <established>1994-01-10</established>
+        <members type="member" country="AL A CZ H SK SLO BY LV LT PL UA R BG RO EW SF S M MD TM UZB ARM GE AZ KAZ KGZ SRB MNE"/>
+    </organization>
+    <organization id="org-PCA">
+        <name>Permanent Court of Arbitration</name>
+        <abbrev>PCA</abbrev>
+        <established>1899-07-29</established>
+        <members type="member" country="GR F E A CZ D H I FL SK CH BY PL UA R B L NL BG RO TR DK SF N S IS M P GB CN IR PK IND LAO THA K KGZ CY IL ET IRQ JOR RL J SGP CL GCA MEX CDN USA NIC PA C DOM RH ES HCA CO AUS FJI NZ RA BOL BR RCH PY ROU PE SME YV EC ZRE BF WAN ZW CAM SUD SN EAU MS SD SRB MNE"/>
+    </organization>
+    <organization id="org-RG">
+        <name>Rio Group</name>
+        <abbrev>RG</abbrev>
+        <established>1988-01-01</established>
+        <members type="member" country="MEX CO RA BOL BR RCH PY ROU PE YV EC"/>
+    </organization>
+    <organization id="org-SAARC" headq="cty-Nepal-Kathmandu">
+        <name>South Asian Association for Regional Cooperation</name>
+        <abbrev>SAARC</abbrev>
+        <established>1985-12-08</established>
+        <members type="member" country="PK BD IND BHT NEP MV CL"/>
+    </organization>
+    <organization id="org-SPC" headq="cty-New-Caledonia-Noumea">
+        <name>South Pacific Commission</name>
+        <abbrev>SPC</abbrev>
+        <established>1947-02-06</established>
+        <members type="member" country="F GB PNG USA AMSA AUS COOK FJI FPOL GUAM KIR MH NAU NCA NZ NIUE NMIS PAL PITC SLB TO TUV VU WAFU WS"/>
+    </organization>
+    <organization id="org-SPF" headq="cty-Fiji-Suva">
+        <name>South Pacific Forum</name>
+        <abbrev>SPF</abbrev>
+        <established>1971-08-05</established>
+        <members type="member" country="PNG AUS FJI KIR MH NAU NZ PAL SLB TO TUV VU WS"/>
+    </organization>
+    <organization id="org-Sparteca">
+        <name>South Pacific Regional Trade and Economic Cooperation Agreement</name>
+        <abbrev>Sparteca</abbrev>
+        <established>1981-01-01</established>
+        <members type="member" country="PNG AUS COOK FJI KIR MH NAU NZ NIUE SLB TO TUV VU WS"/>
+    </organization>
+    <organization id="org-SACU" headq="cty-South-Africa-6">
+        <name>Southern African Customs Union</name>
+        <abbrev>SACU</abbrev>
+        <established>1969-12-11</established>
+        <members type="member" country="NAM RB RSA LS SD"/>
+    </organization>
+    <organization id="org-SADC" headq="cty-Botswana-Gaborone">
+        <name>Southern African Development Community</name>
+        <abbrev>SADC</abbrev>
+        <established>1992-08-17</established>
+        <members type="member" country="ANG NAM Z RB RSA ZW EAT LS MW MOC MS SD"/>
+    </organization>
+    <organization id="org-Mercosur" headq="cty-Argentina-Buenos-Aires">
+        <name>Southern Cone Common Market</name>
+        <abbrev>Mercosur</abbrev>
+        <established>1991-03-26</established>
+        <members type="member" country="RA BR PY ROU"/>
+        <members type="associate member" country="RCH"/>
+    </organization>
+    <organization id="org-UN" headq="cty-United-States-2">
+        <name>United Nations</name>
+        <abbrev>UN</abbrev>
+        <established>1945-06-26</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI MH NZ PAL SLB VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD SSD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+        <members type="observer" country="CH V"/>
+    </organization>
+    <organization id="org-UNAVEM-III" headq="cty-United-States-2">
+        <name>United Nations Angola Verification Mission</name>
+        <abbrev>UNAVEM III</abbrev>
+        <established>1988-12-20</established>
+        <members type="member" country="F H SK PL R NL BG RO N S P GB PK BD IND MAL ET JOR FJI NZ RA BR ROU DZ RMM MA RCB Z WAN ZW EAT EAK SN GNB"/>
+    </organization>
+    <organization id="org-UNAMIR" headq="cty-United-States-2">
+        <name>United Nations Assistance Mission for Rwanda</name>
+        <abbrev>UNAMIR</abbrev>
+        <established>1993-10-05</established>
+        <members type="member" country="A D CH R PK BD IND JOR CDN AUS FJI RA ROU RMM RN TN RCB Z WAN ZW GH TCH RG DJI SN GNB MW"/>
+    </organization>
+    <organization id="org-UNCRO" headq="cty-United-States-2">
+        <name>United Nations Confidence Restoration Operation in Croatia</name>
+        <abbrev>UNCRO</abbrev>
+        <established>1995-03-31</established>
+        <members type="member" country="F E CZ D SK LT PL UA R B NL TR DK EW SF N S IRL P GB PK BD MAL NEP ET RI JOR CDN USA RA BR TN WAN GH EAK SN"/>
+    </organization>
+    <organization id="org-UNDOF" headq="cty-SYR-8">
+        <name>United Nations Disengagement Observer Force</name>
+        <abbrev>UNDOF</abbrev>
+        <established>1974-05-31</established>
+        <members type="member" country="A PL CDN"/>
+    </organization>
+    <organization id="org-UNESCO" headq="cty-France-Paris">
+        <name>United Nations Educational, Scientific, and Cultural Organization</name>
+        <abbrev>UNESCO</abbrev>
+        <established>1945-11-16</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q CL AG BS BDS BZ GCA MEX CDN CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS COOK FJI KIR MH NZ NIUE SLB TO TUV VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD SSD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL CAYM"/>
+        <members type="associate member" country="ARU BVIR NA MACX"/>
+    </organization>
+    <organization id="org-UNFICYP" headq="cty-United-States-2">
+        <name>United Nations Force in Cyprus</name>
+        <abbrev>UNFICYP</abbrev>
+        <established>1964-03-04</established>
+        <members type="member" country="A SF IRL GB CDN AUS RA"/>
+    </organization>
+    <organization id="org-UNIDO" headq="cty-Austria-Vienna">
+        <name>United Nations Industrial Development Organization</name>
+        <abbrev>UNIDO</abbrev>
+        <established>1966-11-17</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV PL UA R B L NL BIH HR BG RO TR DK SF N S IRL M MD P GB AFG CN IR PK TAD UZB ARM GE AZ BRN BD MYA IND BHT MAL LAO THA K VN NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q CL BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS FJI NZ TO VU RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+    </organization>
+    <organization id="org-UNITAR">
+        <name>United Nations Institute for Training and Research</name>
+        <abbrev>UNITAR</abbrev>
+        <established>1963-12-11</established>
+        <members type="member" country="F D I CH R B NL N S GB CN PK IND J MEX CDN USA JA RA LAR TN CI EAU"/>
+    </organization>
+    <organization id="org-UNIFIL" headq="cty-United-States-2">
+        <name>United Nations Interim Force in Lebanon</name>
+        <abbrev>UNIFIL</abbrev>
+        <established>1978-03-19</established>
+        <members type="member" country="F I PL SF N IRL NEP FJI GH"/>
+    </organization>
+    <organization id="org-UNIKOM" headq="cty-United-States-2">
+        <name>United Nations Iraq-Kuwait Observation Mission</name>
+        <abbrev>UNIKOM</abbrev>
+        <established>1991-04-09</established>
+        <members type="member" country="GR F A H I PL R RO TR DK SF S IRL GB CN PK BD IND MAL THA RI SGP CDN USA FJI RA ROU YV WAN GH EAK SN"/>
+    </organization>
+    <organization id="org-UNMOGIP" headq="cty-United-States-2">
+        <name>United Nations Military Observer Group in India and Pakistan</name>
+        <abbrev>UNMOGIP</abbrev>
+        <established>1948-08-13</established>
+        <members type="member" country="I B DK SF S ROK RCH ROU"/>
+    </organization>
+    <organization id="org-MINURSO" headq="cty-United-States-2">
+        <name>United Nations Mission for the Referendum in Western Sahara</name>
+        <abbrev>MINURSO</abbrev>
+        <established>1991-04-29</established>
+        <members type="member" country="GR F A D H I PL R B N IRL CN PK BD MAL ET ROK USA ES HCA RA ROU YV TN WAN RT GH RG EAK"/>
+    </organization>
+    <organization id="org-UNMIH" headq="cty-United-States-2">
+        <name>United Nations Mission in Haiti</name>
+        <abbrev>UNMIH</abbrev>
+        <established>1993-09-23</established>
+        <members type="member" country="F A R NL IRL PK BD IND NEP JOR RP BS BDS BZ GCA CDN USA HCA JA KN WL TT RA GUY SME DZ RMM BEN RT DJI"/>
+    </organization>
+    <organization id="org-UNMOT" headq="cty-United-States-2">
+        <name>United Nations Mission of Observers in Tajikistan</name>
+        <abbrev>UNMOT</abbrev>
+        <established>1994-12-16</established>
+        <members type="member" country="A H CH PL UA BG DK BD JOR ROU"/>
+    </organization>
+    <organization id="org-UNOMIG" headq="cty-United-States-2">
+        <name>United Nations Observer Mission in Georgia</name>
+        <abbrev>UNOMIG</abbrev>
+        <members type="member" country="AL GR F A CZ D H CH PL R TR DK S GB PK BD ET RI JOR ROK USA C ROU"/>
+    </organization>
+    <organization id="org-UNOMIL" headq="cty-United-States-2">
+        <name>United Nations Observer Mission in Liberia</name>
+        <abbrev>UNOMIL</abbrev>
+        <established>1993-09-22</established>
+        <members type="member" country="CZ CN PK IND MAL ET JOR ROU EAK GNB"/>
+    </organization>
+    <organization id="org-UNHCR" headq="cty-Switzerland-4">
+        <name>United Nations Office of the High Commissioner for Refugees</name>
+        <abbrev>UNHCR</abbrev>
+        <established>1949-12-03</established>
+        <members type="member" country="GR F E A D H I CH R B NL TR DK SF N S V GB CN IR PK BD IND THA IL RL J RP CDN USA NIC CO AUS RA BR YV DZ MA TN NAM ZRE WAN EAT SUD ETH SP EAU LS RM SRB MNE"/>
+    </organization>
+    <organization id="org-UNPREDEP">
+        <name>United Nations Preventive Deployment Force</name>
+        <abbrev>UNPREDEP</abbrev>
+        <established>1995-03-31</established>
+        <members type="member" country="F E CH PL UA R NL DK SF N S IRL P GB PK BD MAL ET RI JOR CDN USA NZ BR WAN GH EAK"/>
+    </organization>
+    <organization id="org-UNPROFOR" headq="cty-United-States-2">
+        <name>United Nations Protection Force</name>
+        <abbrev>UNPROFOR</abbrev>
+        <established>1992-02-28</established>
+        <members type="member" country="F E CZ D CH PL UA R B NL DK SF N S IRL P GB PK BD MAL NEP ET RI JOR CDN USA NZ BR WAN GH EAK"/>
+    </organization>
+    <organization id="org-UNRWA" headq="cty-Austria-Vienna">
+        <name>United Nations Relief and Works Agency for Palestine Refugees in the Near East</name>
+        <abbrev>UNRWA</abbrev>
+        <established>1949-12-08</established>
+        <members type="member" country="F B TR GB ET JOR SYR RL J USA"/>
+    </organization>
+    <organization id="org-UNTSO" headq="cty-Israel-Jerusalem">
+        <name>United Nations Truce Supervision Organization</name>
+        <abbrev>UNTSO</abbrev>
+        <established>1948-05-01</established>
+        <members type="member" country="F A I CH R B NL DK SF N S IRL CN CDN USA AUS NZ RA RCH"/>
+    </organization>
+    <organization id="org-UNU">
+        <name>United Nations University</name>
+        <abbrev>UNU</abbrev>
+        <established>1973-12-06</established>
+        <members type="member" country="F E H CH NL IS GB CN BD IND THA J ROK RP CL GCA MEX CDN USA CR CO TT AUS RA BR RCH YV WAN GH SUD ETH EAK"/>
+    </organization>
+    <organization id="org-UPU" headq="cty-Switzerland-5">
+        <name>Universal Postal Union</name>
+        <abbrev>UPU</abbrev>
+        <established>1874-10-09</established>
+        <members type="member" country="AL GR MK F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC V IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA NA CO KN WL WV TT AUS FJI KIR NAU NZ SLB TO TUV VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD SSD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY HONX MACX SRB MNE TL AXA ARU BERM BVIR CAYM MNTS PR TUCA AMSA COOK GUAM NCA NIUE PITC FALK MAYO HELX WAFU SMAR"/>
+    </organization>
+    <organization id="org-WADB" headq="cty-Togo-Lome">
+        <name>West African Development Bank</name>
+        <abbrev>WADB</abbrev>
+        <established>1973-11-14</established>
+        <members type="member" country="RMM RN BEN BF RT CI SN"/>
+    </organization>
+    <organization id="org-WEU" headq="cty-Belgium-Brussels">
+        <name>Western European Union</name>
+        <abbrev>WEU</abbrev>
+        <established>1954-10-23</established>
+        <members type="member" country="GR F E D I B L NL P GB"/>
+        <members type="associate member" country="TR N IS"/>
+        <members type="observer" country="A DK SF S IRL"/>
+        <members type="associate partner" country="CZ H SK LV LT PL BG RO EW"/>
+    </organization>
+    <organization id="org-WCL" headq="cty-Belgium-Brussels">
+        <name>World Confederation of Labor</name>
+        <abbrev>WCL</abbrev>
+        <established>1920-06-19</established>
+        <members type="member" country="F E A I FL CH PL B L NL RO M P GB IR PK BD MAL THA VN CY RI RP CL RC AG ARU BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG GUAD JA MART CO PR KN WL WV RA BOL BR RCH PY ROU PE FGU GUY SME YV EC DZ RMM RN ANG NAM ZRE Z BEN BF WAN RT RB ZW CI GH RWA EAT CAM RCA TCH G CV RG LB EAK WAG SN WAL LS RM MS SY HONX SRB NA"/>
+    </organization>
+    <organization id="org-WFTU" headq="cty-Czech-Republic-2">
+        <name>World Federation of Trade Unions</name>
+        <abbrev>WFTU</abbrev>
+        <established>1945-10-03</established>
+        <members type="member" country="AL GR F E A CZ H PL BG RO TR DK SF S P AFG IR PK BRN BD IND MAL LAO THA K VN NOK MNG NEP CY ET RI PNG IRQ JOR KWT SA SYR RL J OM YE RP CL AG GCA MEX CDN CR NIC PA C DOM RH ES HCA GUAD JA MART CO PR WL SPMI WV TT AUS FJI NCA NZ SLB VU RA BOL BR RCH ROU PE FGU GUY YV EC LAR RMM RN TN ANG RCB ZRE BEN BF WAN RT RB RSA ZW CI GH EAT CAM SUD RG LB DJI ER ETH SP WAG SN GNB WAL EAU LS RM MW MOC MS REUN HONX MACX SRB MNE TL AXA ARU BERM BVIR CAYM MNTS WAFU MAYO HELX SMAR WSA"/>
+    </organization>
+    <organization id="org-WHO" headq="cty-Switzerland-4">
+        <name>World Health Organization</name>
+        <abbrev>WHO</abbrev>
+        <established>1946-07-22</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC IS IRL RSM M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA WG JA CO KN WL WV TT AUS COOK FJI KIR MH NAU NZ NIUE PAL SLB TO TUV VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY SRB MNE TL"/>
+        <members type="associate member" country="PR"/>
+    </organization>
+    <organization id="org-WIPO" headq="cty-Switzerland-4">
+        <name>World Intellectual Property Organization</name>
+        <abbrev>WIPO</abbrev>
+        <established>1967-07-14</established>
+        <members type="member" country="AL GR MK AND F E A CZ D H I FL SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S MC V IS IRL RSM M MD P GB CN IR PK TAD UZB ARM GE AZ BRN BD IND BHT BRU MAL LAO THA K VN KAZ NOK KGZ MNG CY IL ET RI IRQ JOR SA RL J ROK UAE YE RP Q SGP CL BS BDS GCA MEX CDN USA CR NIC PA C DOM RH ES HCA JA CO KN WL TT AUS FJI NZ RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RSA ZW CI GH BI RWA EAT CAM RCA TCH G SUD RG LB SP EAK WAG SN GNB WAL EAU LS RM MW MS SD SRB MNE"/>
+    </organization>
+    <organization id="org-WMO" headq="cty-Switzerland-4">
+        <name>World Meteorological Organization</name>
+        <abbrev>WMO</abbrev>
+        <established>1947-10-11</established>
+        <members type="member" country="AL GR MK F E A CZ D H I SK SLO CH BY LV LT PL UA R B L NL BIH HR BG RO TR DK EW SF N S IS IRL M MD P GB AFG CN IR PK TAD TM UZB ARM GE AZ BRN BD MYA IND BRU MAL LAO THA K VN KAZ NOK KGZ MNG NEP COCO CY IL ET RI PNG IRQ JOR KWT SA SYR RL J ROK MV OM UAE YE RP Q SGP CL AG BS BDS BZ GCA MEX CDN USA CR NIC PA C WD DOM RH ES HCA JA NA CO WL TT AUS FJI FPOL NCA NZ SLB VU WS RA BOL BR RCH PY ROU PE GUY SME YV EC DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB RSA ZW CI GH BI RWA EAT CAM RCA TCH G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY HONX MACX SRB MNE ARU COOK NIUE"/>
+    </organization>
+    <organization id="org-WToO" headq="cty-Spain-Madrid">
+        <name>World Tourism Organization</name>
+        <abbrev>WToO</abbrev>
+        <established>1975-01-02</established>
+        <members type="member" country="AL GR F E A CZ D H I SK SLO CH PL R B NL BIH HR BG RO TR SF RSM M MD P AFG CN IR PK TM UZB GE BD IND MAL LAO K VN KAZ NOK KGZ MNG NEP CY IL ET RI IRQ JOR KWT SYR RL J ROK MV UAE YE CL GCA MEX CDN USA NIC PA C DOM RH ES WG JA CO RA BOL BR RCH PY ROU PE YV EC DZ LAR RMM RIM MA RN TN ANG RCB ZRE Z BEN BF WAN RT ZW CI GH BI RWA EAT CAM TCH G SUD RG ETH EAK WAG SN GNB WAL EAU LS RM MW MS STP SY"/>
+        <members type="associate member" country="NA PR"/>
+        <members type="observer" country="V"/>
+    </organization>
+    <organization id="org-WTrO">
+        <name>World Trade Organization</name>
+        <abbrev>WTrO</abbrev>
+        <established>1994-04-15</established>
+        <members type="member" country="GR F E A CZ D H I FL SK SLO CH PL B L NL RO TR DK SF N S IS IRL M P GB PK BRN BD MYA IND BRU MAL THA CY IL ET RI KWT J ROK MV RP Q SGP CL AG BDS BZ GCA MEX CDN USA CR NIC C WD DOM ES HCA JA CO WL WV TT AUS FJI NZ RA BOL BR RCH PY ROU PE GUY SME YV RMM RIM MA TN NAM Z BF WAN RT RB RSA ZW CI GH BI EAT CAM RCA G RG DJI EAK SN GNB WAL EAU LS RM MW MOC MS SD"/>
+        <members type="observer" country="MK TAD TM AZ LAO KAZ KGZ LAR SUD ETH SP"/>
+        <members type="applicant" country="AL BY LV LT UA R HR BG EW MD CN UZB ARM K VN MNG NEP JOR SA YE RC PA EC DZ GQ CV STP SY"/>
+    </organization>
+    <organization id="org-ZC">
+        <name>Zangger Committee</name>
+        <abbrev>ZC</abbrev>
+        <members type="member" country="GR F E A CZ D H I SK CH PL R B L NL BG RO DK SF N S IRL P GB J CDN USA AUS RSA"/>
+    </organization>
+    <sea id="sea-Atlantic" country="F E GBZ IS IRL GB P AG BS BDS CDN USA C WD DOM RH WG KN WL WV TT RA BR RCH ROU FGU GUY SME YV RIM MA WSA ANG RCB NAM ZRE BEN WAN RT RSA CI GH CAM GQ G CV RG LB WAG SN GNB WAL NA SMAR STP PR AXA GUAD MART BVIR MNTS VIRG HELX FALK SPMI BERM TUCA SVAX GROX FARX" bordering="sea-Mittelmeer sea-Channel sea-Irische_See sea-Nordsee sea-NorwegianSea sea-Greenlandsea sea-LabradorSea sea-Golf_von_Mexiko  sea-Caribbean sea-Indic">
+        <name>Atlantic Ocean</name>
+        <located country="F" province="prov-France-5 prov-France-20 prov-France-89 prov-France-99"/>
+        <located country="E" province="prov-Spain-2 prov-Spain-13  prov-Spain-8  prov-Spain-7 prov-Spain-6  prov-Spain-4"/>
+        <located country="P" province="prov-Portugal-2 prov-Portugal-3 prov-Portugal-4 prov-Portugal-7 prov-Portugal-9 prov-Portugal-11 prov-Portugal-12 prov-Portugal-14 prov-Portugal-16 prov-Portugal-17 prov-Portugal-21 prov-Portugal-22"/>
+        <located country="GB" province="prov-gb-9 prov-gb-10 prov-gb-11 prov-gb-12"/>
+        <located country="CDN" province="prov-Canada-5 prov-Canada-6 prov-Canada-8 prov-Canada-10 prov-Canada-11 prov-Canada-14"/>
+        <located country="USA" province="prov-United-States-8 prov-United-States-9 prov-United-States-10 prov-United-States-11 prov-United-States-20 prov-United-States-21 prov-United-States-22 prov-United-States-30 prov-United-States-31 prov-United-States-33 prov-United-States-34 prov-United-States-40 prov-United-States-41 prov-United-States-47"/>
+        <located country="C" province="prov-Cuba-3 prov-Cuba-7 prov-Cuba-8 prov-Cuba-9 prov-Cuba-10 prov-Cuba-11 prov-Cuba-13 prov-Cuba-15"/>
+        <located country="RCH" province="prov-Chile-12"/>
+        <located country="RA" province="prov-Argentina-2 prov-Argentina-5 prov-Argentina-16 prov-Argentina-20 prov-Argentina-23 prov-Argentina-26"/>
+        <located country="BR" province="prov-Brazil-3 prov-Brazil-4 prov-Brazil-6 prov-Brazil-7 prov-Brazil-8 prov-Brazil-10 prov-Brazil-14 prov-Brazil-15 prov-Brazil-16 prov-Brazil-17 prov-Brazil-18 prov-Brazil-19 prov-Brazil-20 prov-Brazil-21 prov-Brazil-24 prov-Brazil-25 prov-Brazil-26"/>
+        <located country="YV" province="prov-Venezuela-10"/>
+        <located country="MA" province="prov-MA-3 prov-MA-4 prov-MA-5 prov-MA-6 prov-MA-7 prov-MA-9 prov-MA-10 prov-MA-11 prov-MA-16 "/>
+        <located country="RIM" province="prov-RIM-4 prov-RIM-9 prov-RIM-10 prov-RIM-13"/>
+        <located country="SN" province="prov-Senegal-2 prov-Senegal-4 prov-Senegal-7 prov-Senegal-8 prov-Senegal-10 prov-Senegal-11"/>
+        <located country="CI" province="prov-CI-3 prov-CI-8 prov-CI-15 prov-CI-16"/>
+        <located country="GH" province="prov-GH-3 prov-GH-5 prov-GH-9 prov-GH-10"/>
+        <located country="WAN" province="prov-WAN-4 prov-WAN-10 prov-WAN-11 prov-WAN-25 prov-WAN-28 prov-WAN-29 prov-WAN-33"/>
+        <located country="CAM" province="prov-Cameroon-3 prov-Cameroon-6 prov-Cameroon-11"/>
+        <located country="RCB" province="prov-RCB-1 prov-RCB-12"/>
+        <located country="ZRE" province="prov-Zaire-3"/>
+        <located country="ANG" province="prov-Angola-2 prov-Angola-3 prov-Angola-5 prov-Angola-7 prov-Angola-11 prov-Angola-16 prov-Angola-18"/>
+        <located country="RSA" province="prov-South-Africa-7 prov-South-Africa-10"/>
+        <depth>9219</depth>
+    </sea>
+    <sea id="sea-Mittelmeer" country="AL GR MNE HR BIH SLO F E I TR MC M CY IL GAZA ET SYR RL DZ LAR MA TN GBZ CEU MEL" bordering="sea-Schwarzes_Meer sea-Atlantic">
+        <name>Mediterranean Sea</name>
+        <located country="F" province="prov-France-42 prov-France-62 prov-France-104"/>
+        <located country="E" province="prov-Spain-2 prov-Spain-5 prov-Spain-11 prov-Spain-15 prov-Spain-18"/>
+        <located country="I" province="prov-Italy-23 prov-Italy-31 prov-Italy-36 prov-Italy-41 prov-Italy-50 prov-Italy-63 prov-Italy-68 prov-Italy-74 prov-Italy-79 prov-Italy-82 prov-Italy-88 prov-Italy-94 prov-Italy-97 prov-Italy-101 prov-Italy-111"/>
+        <located country="BIH" province="prov-BIH-1"/>
+        <located country="GR" province="prov-Greece-2 prov-Greece-3 prov-Greece-4 prov-Greece-6 prov-Greece-7 prov-Greece-8 prov-Greece-9 prov-Greece-10 prov-Greece-11 prov-Greece-12 prov-Greece-13 prov-Greece-14"/>
+        <located country="TR" province="prov-Turkey-2 prov-Turkey-9 prov-Turkey-11 prov-Turkey-12 prov-Turkey-21 prov-Turkey-35 prov-Turkey-36 prov-Turkey-39 prov-Turkey-54"/>
+        <located country="SYR" province="prov-SYR-2 prov-SYR-14"/>
+        <located country="IL" province="prov-Israel-2 prov-Israel-3 prov-Israel-5 prov-Israel-6 prov-Israel-7"/>
+        <located country="ET" province="prov-Egypt-4 prov-Egypt-9 prov-Egypt-29 prov-Egypt-14 prov-Egypt-10 prov-Egypt-11 prov-Egypt-17 prov-Egypt-13 prov-Egypt-28 prov-Egypt-6"/>
+        <located country="MA" province="prov-MA-8 prov-MA-15 prov-MA-16"/>
+        <depth>5121</depth>
+    </sea>
+    <sea id="sea-Schwarzes_Meer" country="UA R BG RO TR GE" bordering="sea-Mittelmeer sea-Asowsches_Meer">
+        <name>Black Sea</name>
+        <located country="UA" province="prov-Ukraine-9 prov-Ukraine-15 prov-Ukraine-16 prov-Ukraine-27"/>
+        <located country="R" province="prov-Russia-59"/>
+        <located country="RO" province="prov-Romania-16 prov-Romania-39"/>
+        <located country="TR" province="prov-Turkey-10 prov-Turkey-18 prov-Turkey-32 prov-Turkey-38 prov-Turkey-43 prov-Turkey-46 prov-Turkey-48 prov-Turkey-58 prov-Turkey-59 prov-Turkey-60 prov-Turkey-61 prov-Turkey-64 prov-Turkey-69 prov-Turkey-74"/>
+        <depth>2211</depth>
+    </sea>
+    <sea id="sea-Asowsches_Meer" country="UA R" bordering="sea-Schwarzes_Meer">
+        <name>Sea of Azov</name>
+        <located country="UA" province="prov-Ukraine-6 prov-Ukraine-9 prov-Ukraine-24 prov-Ukraine-27"/>
+        <located country="R" province="prov-Russia-45 prov-Russia-59"/>
+        <depth>100</depth>
+    </sea>
+    <sea id="sea-Channel" country="F GB GBG GBJ" bordering="sea-Atlantic sea-Nordsee">
+        <name>The Channel</name>
+        <located country="F" province="prov-France-16 prov-France-50 prov-France-86 prov-France-95"/>
+        <located country="GB" province="prov-gb-8 prov-gb-9"/>
+        <depth>175</depth>
+    </sea>
+    <sea id="sea-Irische_See" country="IRL GB GBM" bordering="sea-Atlantic">
+        <name>Irish Sea</name>
+        <located country="GB" province="prov-gb-2 prov-gb-10 prov-gb-11 prov-gb-12"/>
+        <depth>272</depth>
+    </sea>
+    <sea id="sea-Nordsee" country="NL B F DK N GB D" bordering="sea-Atlantic sea-NorwegianSea sea-Channel sea-Skagerrak">
+        <name>North Sea</name>
+        <located country="D" province="prov-Germany-6 prov-Germany-10 prov-Germany-16"/>
+        <located country="NL" province="prov-Netherlands-2 prov-Netherlands-3 prov-Netherlands-6 prov-Netherlands-9 prov-Netherlands-10 prov-Netherlands-11"/>
+        <located country="B" province="prov-Belgium-10"/>
+        <located country="F" province="prov-France-86"/>
+        <located country="DK" province="prov-DK-1 prov-DK-2 prov-DK-3"/>
+        <located country="N" province="lteil-TE-N lteil-VA-N lteil-RO-N lteil-HO-N lteil-SF-N"/>
+        <located country="GB" province="prov-gb-1 prov-gb-3 prov-gb-4 prov-gb-6 prov-gb-8 prov-gb-10"/>
+        <depth>200</depth>
+    </sea>
+    <sea id="sea-Skagerrak" country="N S DK" bordering="sea-Nordsee sea-Kattegat">
+        <name>Skagerrak</name>
+        <located country="DK" province="prov-DK-1"/>
+        <located country="N" province="lteil-OS-N lteil-AK-N lteil-OES-N lteil-BU-N lteil-VE-N lteil-AA-N lteil-VA-N"/>
+        <located country="S" province="prov-Sweden-5"/>
+        <depth>725</depth>
+    </sea>
+    <sea id="sea-Kattegat" country="S DK" bordering="sea-Skagerrak sea-Ostsee">
+        <name>Kattegat</name>
+        <located country="DK" province="prov-DK-1 prov-DK-2 prov-DK-3 prov-DK-4 prov-DK-5"/>
+        <located country="S" province="prov-Sweden-5 prov-Sweden-7 prov-Sweden-12"/>
+        <depth>94</depth>
+    </sea>
+    <sea id="sea-Ostsee" country="D LV LT PL R DK EW SF S" bordering="sea-Kattegat">
+        <name>Baltic Sea</name>
+        <located country="DK" province="prov-DK-3 prov-DK-4 prov-DK-5"/>
+        <located country="D" province="prov-Germany-16 prov-Germany-9"/>
+        <located country="PL" province="prov-PL-16 prov-PL-11 prov-PL-14"/>
+        <located country="R" province="prov-Russia-11 prov-Russia-10 prov-Russia-9"/>
+        <located country="SF" province="lteil-ALA-SF lteil-KYM-SF lteil-LAP-SF lteil-OUL-SF lteil-TUP-SF lteil-UUS-SF lteil-VAA-SF"/>
+        <located country="S" province="prov-Sweden-3 prov-Sweden-4 prov-Sweden-6 prov-Sweden-10 prov-Sweden-12 prov-Sweden-15 prov-Sweden-17 prov-Sweden-19 prov-Sweden-20 prov-Sweden-21 prov-Sweden-23 prov-Sweden-24"/>
+        <depth>459</depth>
+    </sea>
+    <sea id="sea-NorwegianSea" country="N IS FARX SVAX GB" bordering="sea-Nordsee sea-Atlantic sea-Greenlandsea sea-BarentsSea">
+        <name>Norwegian Sea</name>
+        <located country="N" province="lteil-SF-N lteil-MR-N lteil-ST-N lteil-NT-N lteil-NO-N lteil-TR-N lteil-FI-N"/>
+        <located country="GB" province="prov-gb-10"/>
+        <depth>3970</depth>
+    </sea>
+    <sea id="sea-Greenlandsea" country="IS SVAX GROX" bordering="sea-Atlantic sea-NorwegianSea sea-ArcticOcean">
+        <name>Greenland Sea</name>
+        <depth>4846</depth>
+    </sea>
+    <sea id="sea-BarentsSea" country="N R SVAX" bordering="sea-NorwegianSea sea-ArcticOcean sea-KaraSea">
+        <name>Barents Sea</name>
+        <located country="N" province="lteil-FI-N"/>
+        <located country="R" province="prov-Russia-8 prov-Russia-3 prov-Russia-5"/>
+        <depth>450</depth>
+    </sea>
+    <sea id="sea-KaraSea" country="R" bordering="sea-BarentsSea sea-ArcticOcean">
+        <name>Kara Sea</name>
+        <located country="R" province="prov-Russia-5 prov-Russia-92 prov-Russia-75"/>
+    </sea>
+    <sea id="sea-ArcticOcean" country="R CDN USA SVAX GROX" bordering="sea-HudsonBay sea-LabradorSea sea-Greenlandsea sea-BarentsSea sea-KaraSea sea-SibirianSea sea-BeringSea ">
+        <name>Arctic Ocean</name>
+        <located country="R" province="prov-Russia-5 prov-Russia-75"/>
+        <located country="CDN" province="prov-Canada-7 prov-Canada-14 prov-Canada-13"/>
+        <located country="USA" province="prov-United-States-3"/>
+        <depth>5608</depth>
+    </sea>
+    <sea id="sea-SibirianSea" country="R" bordering="sea-ArcticOcean sea-BeringSea">
+        <name>East Sibirian Sea</name>
+        <located country="R" province="prov-Russia-75 prov-Russia-81 prov-Russia-83"/>
+        <depth>540</depth>
+    </sea>
+    <sea id="sea-BeringSea" country="R USA" bordering="sea-ArcticOcean sea-SibirianSea sea-Pacific">
+        <name>Bering Sea</name>
+        <located country="R" province="prov-Russia-83 prov-Russia-87"/>
+        <located country="USA" province="prov-United-States-3"/>
+        <depth>4096</depth>
+    </sea>
+    <sea id="sea-HudsonBay" country="CDN" bordering="sea-ArcticOcean sea-LabradorSea">
+        <name>Hudson Bay</name>
+        <located country="CDN" province="prov-Canada-4 prov-Canada-9 prov-Canada-11 prov-Canada-14"/>
+    </sea>
+    <sea id="sea-LabradorSea" country="CDN GROX" bordering="sea-HudsonBay sea-Atlantic sea-ArcticOcean">
+        <name>Labrador Sea</name>
+        <located country="CDN" province="prov-Canada-6 prov-Canada-11 prov-Canada-14"/>
+        <depth>4316</depth>
+    </sea>
+    <sea id="sea-Golf_von_Mexiko" country="MEX USA C" bordering="sea-Atlantic sea-Caribbean">
+        <name>Gulf of Mexico</name>
+        <located country="MEX" province="prov-Mexico-5 prov-Mexico-23 prov-Mexico-27 prov-Mexico-28 prov-Mexico-30 prov-Mexico-31"/>
+        <located country="USA" province="prov-United-States-2 prov-United-States-10 prov-United-States-19 prov-United-States-25 prov-United-States-44"/>
+        <located country="C" province="prov-Cuba-5 prov-Cuba-9 prov-Cuba-12"/>
+        <depth>4375</depth>
+    </sea>
+    <sea id="sea-Caribbean" country="AG BZ GCA MEX CR NIC PA C WD DOM RH HCA WG JA CO KN WL WV YV PR SMAR AXA GUAD MART BVIR MNTS VIRG TT NA ARU CAYM" bordering="sea-Atlantic sea-Golf_von_Mexiko">
+        <name>Caribbean Sea</name>
+        <located country="MEX" province="prov-Mexico-23"/>
+        <located country="CR" province="prov-Costa-Rica-8"/>
+        <located country="PA" province="prov-Panama-2 prov-Panama-4 prov-Panama-5"/>
+        <located country="C" province="prov-Cuba-3 prov-Cuba-4 prov-Cuba-6 prov-Cuba-7 prov-Cuba-9 prov-Cuba-10 prov-Cuba-11 prov-Cuba-12 prov-Cuba-13 prov-Cuba-14 prov-Cuba-16"/>
+        <located country="HCA" province="prov-Honduras-2 prov-Honduras-3 prov-Honduras-6 prov-Honduras-10"/>
+        <located country="CO" province="prov-Colombia-3 prov-Colombia-5 prov-Colombia-6 prov-Colombia-13 prov-Colombia-14 prov-Colombia-17 prov-Colombia-20 prov-Colombia-30"/>
+        <located country="YV" province="prov-Venezuela-3 prov-Venezuela-5 prov-Venezuela-8 prov-Venezuela-10 prov-Venezuela-11 prov-Venezuela-15 prov-Venezuela-16 prov-Venezuela-17 prov-Venezuela-19 prov-Venezuela-23 prov-Venezuela-25"/>
+        <depth>7240</depth>
+    </sea>
+
+    <sea id="sea-Pacific" country="R J RP RC GCA MEX CDN USA CR NIC PA ES HCA CO AUS FJI KIR MH FSM NAU NZ PAL SLB TO TUV VU WS RCH PE EC RI PNG NCA NIUE NMIS PITC WAFU AMSA COOK FPOL GUAM NORF" bordering="sea-BeringSea sea-OchotskSea sea-Japanisches_Meer sea-EastChinaSea sea-SouthChinaSea sea-Sulusee sea-Celebessee sea-Bandasee sea-Indic">
+        <name>Pacific Ocean</name>
+        <located country="R" province="prov-Russia-87"/>
+        <located country="J" province="prov-Japan-3 prov-Japan-5 prov-Japan-6 prov-Japan-7 prov-Japan-10 prov-Japan-12 prov-Japan-16 prov-Japan-17 prov-Japan-18 prov-Japan-27 prov-Japan-28 prov-Japan-30 prov-Japan-33 prov-Japan-34 prov-Japan-36 prov-Japan-40 prov-Japan-41 prov-Japan-42 prov-Japan-44 prov-Japan-45 prov-Japan-46 prov-Japan-47 prov-Japan-49 prov-Japan-53 prov-Japan-54 prov-Japan-55 prov-Japan-56"/>
+        <located country="RP" province="prov-RP-1 prov-RP-2 prov-RP-3 prov-RP-4 prov-RP-5 prov-RP-8 prov-RP-16 prov-RP-11"/>
+        <located country="RI" province="prov-RI-24 prov-RI-31 prov-RI-32 prov-RI-33"/>
+        <located country="MEX" province="prov-Mexico-3 prov-Mexico-4 prov-Mexico-6 prov-Mexico-9 prov-Mexico-12 prov-Mexico-14 prov-Mexico-16 prov-Mexico-18 prov-Mexico-20 prov-Mexico-25 prov-Mexico-26"/>
+        <located country="CDN" province="prov-Canada-3 prov-Canada-13"/>
+        <located country="USA" province="prov-United-States-3 prov-United-States-6 prov-United-States-12 prov-United-States-38 prov-United-States-48"/>
+        <located country="CR" province="prov-Costa-Rica-6 prov-Costa-Rica-7"/>
+        <located country="PA" province="prov-Panama-3 prov-Panama-6 prov-Panama-7 prov-Panama-8 prov-Panama-9 prov-Panama-10 prov-Panama-11"/>
+        <located country="HCA" province="prov-Honduras-7 prov-Honduras-18"/>
+        <located country="CO" province="prov-Colombia-11 prov-Colombia-13 prov-Colombia-22 prov-Colombia-32"/>
+        <located country="AUS" province="prov-Australia-2 prov-Australia-4 prov-Australia-7  prov-Australia-6"/>
+        <located country="PE" province="prov-Peru-3 prov-Peru-5 prov-Peru-12 prov-Peru-14 prov-Peru-15 prov-Peru-16 prov-Peru-20 prov-Peru-22 prov-Peru-25 prov-Peru-26"/>
+        <located country="RCH" province="prov-Chile-1 prov-Chile-2 prov-Chile-3 prov-Chile-4 prov-Chile-5 prov-Chile-6 prov-Chile-7 prov-Chile-8 prov-Chile-9 prov-Chile-10 prov-Chile-11 prov-Chile-12 prov-Chile-13 prov-Chile-14 prov-Chile-15"/>
+        <depth>11034</depth>
+    </sea>
+    <sea id="sea-OchotskSea" country="R J" bordering="sea-Pacific sea-Japanisches_Meer">
+        <name>Sea of Okhotsk</name>
+        <located country="R" province="prov-Russia-75 prov-Russia-87 prov-Russia-89"/>
+        <located country="J" province="prov-Japan-3"/>
+        <depth>3372</depth>
+    </sea>
+    <sea id="sea-Japanisches_Meer" country="R J ROK NOK" bordering="sea-Pacific sea-Gelbes_Meer sea-EastChinaSea sea-OchotskSea">
+        <name>Sea of Japan</name>
+        <located country="R" province="prov-Russia-84 prov-Russia-85 prov-Russia-90"/>
+        <located country="J" province="prov-Japan-3 prov-Japan-5 prov-Japan-8 prov-Japan-9 prov-Japan-20 prov-Japan-21 prov-Japan-22 prov-Japan-23 prov-Japan-32 prov-Japan-34 prov-Japan-38 prov-Japan-39 prov-Japan-42 prov-Japan-49 prov-Japan-50 prov-Japan-51"/>
+        <depth>4036</depth>
+    </sea>
+    <sea id="sea-Gelbes_Meer" country="CN ROK NOK" bordering="sea-EastChinaSea sea-Japanisches_Meer">
+        <name>Yellow Sea</name>
+        <located country="CN" province="prov-China-8 prov-China-13 prov-China-16 prov-China-19"/>
+        <depth>200</depth>
+    </sea>
+    <sea id="sea-EastChinaSea" country="CN RC ROK J" bordering="sea-Pacific sea-Gelbes_Meer sea-SouthChinaSea sea-Japanisches_Meer">
+        <name>East China Sea</name>
+        <located country="CN" province="prov-China-3 prov-China-13 prov-China-23"/>
+        <located country="J" province="prov-Japan-50 prov-Japan-51 prov-Japan-52 prov-Japan-55 prov-Japan-56"/>
+        <depth>2370</depth>
+    </sea>
+    <sea id="sea-SouthChinaSea" country="CN MAL THA K VN BRU SGP RI RP RC HONX MACX" bordering="sea-Pacific sea-EastChinaSea sea-Javasee sea-Sulusee sea-MalakkaStrait">
+        <name>South China Sea</name>
+        <located country="CN" province="prov-China-3 prov-China-5 prov-China-7 prov-China-25"/>
+        <located country="MAL" province="prov-Malaysia-2 prov-Malaysia-4 prov-Malaysia-7 prov-Malaysia-11 prov-Malaysia-12 prov-Malaysia-14"/>
+        <located country="RI" province="prov-RI-4 prov-RI-5 prov-RI-6 prov-RI-9 prov-RI-9 prov-RI-10 prov-RI-20"/>
+        <located country="RP" province="prov-RP-1 prov-RP-3 prov-RP-4 prov-RP-13 prov-RP-17"/>
+        <depth>5420</depth>
+    </sea>
+    <sea id="sea-Indic" country="IND RI CL AUS RSA EAT COM YE SP EAK RM MOC MS SY XMAS COCO MV MAYO REUN TL" bordering="sea-Atlantic sea-Pacific sea-GulfAden sea-Javasee sea-Bandasee sea-ArabianSea sea-Bengal sea-AndamanSea">
+        <name>Indian Ocean</name>
+        <located country="IND" province="prov-India-12 prov-India-23"/>
+        <located country="RI" province="prov-RI-1 prov-RI-2 prov-RI-3 prov-RI-7 prov-RI-8 prov-RI-12 prov-RI-13 prov-RI-14 prov-RI-15 prov-RI-16 prov-RI-17 prov-RI-18 prov-RI-19"/>
+        <located country="AUS" province="prov-Australia-3 prov-Australia-5 prov-Australia-6 prov-Australia-7 prov-Australia-8"/>
+        <located country="RSA" province="prov-South-Africa-2 prov-South-Africa-5 prov-South-Africa-10"/>
+        <located country="EAT" province="prov-Tanzania-5 prov-Tanzania-7 prov-Tanzania-8 prov-Tanzania-9 prov-Tanzania-10 prov-Tanzania-22 prov-Tanzania-23 prov-Tanzania-24 prov-Tanzania-25 prov-Tanzania-26"/>
+        <located country="EAK" province="prov-Kenya-3"/>
+        <located country="RM" province="prov-Madagascar-2 prov-Madagascar-3 prov-Madagascar-4 prov-Madagascar-5 prov-Madagascar-6 prov-Madagascar-7"/>
+        <located country="MOC" province="prov-Mozambique-2 prov-Mozambique-3 prov-Mozambique-4 prov-Mozambique-6 prov-Mozambique-7 prov-Mozambique-9 prov-Mozambique-11 prov-Mozambique-13"/>
+        <depth>6400</depth>
+    </sea>
+    <sea id="sea-ArabianSea" country="PK OM IND" bordering="sea-Indic sea-GulfOman sea-GulfAden">
+        <name>Arabian Sea</name>
+        <located country="IND" province="prov-India-6 prov-India-7 prov-India-11 prov-India-12 prov-India-14 prov-India-33"/>
+        <located country="PK" province="prov-PK-2 prov-PK-8"/>
+        <depth>5203</depth>
+    </sea>
+    <sea id="sea-GulfOman" country="IR PK OM UAE" bordering="sea-ArabianSea sea-PersianGulf">
+        <name>Gulf of Oman</name>
+        <located country="IR" province="prov-Iran-12 prov-Iran-22"/>
+        <located country="PK" province="prov-PK-2 prov-PK-2"/>
+        <depth>3350</depth>
+    </sea>
+    <sea id="sea-PersianGulf" country="IR BRN IRQ KWT SA OM UAE Q" bordering="sea-GulfOman">
+        <name>Persian Gulf</name>
+        <located country="IR" province="prov-Iran-6 prov-Iran-12 prov-Iran-16"/>
+        <located country="IRQ" province="prov-Iraq-5"/>
+        <located country="SA" province="prov-SA-8"/>
+        <depth>102</depth>
+    </sea>
+    <sea id="sea-Rotes_Meer" country="IL ET JOR SA YE SUD DJI ER" bordering="sea-GulfAden">
+        <name>Red Sea</name>
+        <located country="IL" province="prov-Israel-7"/>
+        <located country="ET" province="prov-Egypt-3 prov-Egypt-5 prov-Egypt-31"/>
+        <located country="SUD" province="prov-Sudan-9"/>
+        <located country="SA" province="prov-SA-4 prov-SA-10 prov-SA-11 prov-SA-13"/>
+        <depth>2635</depth>
+    </sea>
+    <sea id="sea-GulfAden" country="DJI SP YE" bordering="sea-Indic sea-ArabianSea sea-Rotes_Meer">
+        <name>Gulf of Aden</name>
+        <depth>5143</depth>
+    </sea>
+    <sea id="sea-Bengal" country="BD MYA IND CL" bordering="sea-Indic sea-AndamanSea">
+        <name>Gulf of Bengal</name>
+        <located country="MYA" province="prov-Burma-2 prov-Burma-14"/>
+        <located country="IND" province="prov-India-2 prov-India-19 prov-India-23 prov-India-26 prov-India-28 prov-India-34"/>
+        <located country="BD" province="prov-BD-1 prov-BD-2 prov-BD-4"/>
+        <depth>4045</depth>
+    </sea>
+    <sea id="sea-AndamanSea" country="MYA IND THA RI" bordering="sea-Indic sea-Bengal sea-MalakkaStrait">
+        <name>Andaman Sea</name>
+        <located country="MYA" province="prov-Burma-2 prov-Burma-5 prov-Burma-6 prov-Burma-13"/>
+        <located country="IND" province="prov-India-28"/>
+        <located country="RI" province="prov-RI-1"/>
+        <depth>3113</depth>
+    </sea>
+    <sea id="sea-MalakkaStrait" country="THA RI MAL SGP" bordering="sea-AndamanSea sea-SouthChinaSea">
+        <name>Malakka Strait</name>
+        <located country="MAL" province="prov-Malaysia-3 prov-Malaysia-9 prov-Malaysia-10 prov-Malaysia-8 prov-Malaysia-13 prov-Malaysia-6 prov-Malaysia-5  prov-Malaysia-2"/>
+        <located country="RI" province="prov-RI-1 prov-RI-2 prov-RI-4 prov-RI-10"/>
+        <depth>104</depth>
+    </sea>
+    <sea id="sea-Javasee" country="RI TL" bordering="sea-Indic sea-Bandasee sea-Celebessee sea-SouthChinaSea">
+        <name>Java Sea</name>
+        <located country="RI" province="prov-RI-6 prov-RI-9 prov-RI-11 prov-RI-12 prov-RI-13 prov-RI-15 prov-RI-16 prov-RI-17 prov-RI-18 prov-RI-19 prov-RI-20 prov-RI-21 prov-RI-22 prov-RI-23 prov-RI-25 prov-RI-26 prov-RI-29"/>
+        <depth>2333</depth>
+    </sea>
+    <sea id="sea-Bandasee" country="RI TL" bordering="sea-Indic sea-Pacific sea-Celebessee sea-Javasee">
+        <name>Banda Sea</name>
+        <located country="RI" province="prov-RI-24 prov-RI-25 prov-RI-26 prov-RI-27 prov-RI-28 prov-RI-30 prov-RI-31 prov-RI-32 prov-RI-33"/>
+        <depth>7440</depth>
+    </sea>
+    <sea id="sea-Celebessee" country="RI MAL RP" bordering="sea-Bandasee sea-Javasee sea-Pacific sea-Sulusee">
+        <name>Sulawesi Sea</name>
+        <located country="RP" province="prov-RP-9 prov-RP-10 prov-RP-11 prov-RP-12 prov-RP-15 prov-RP-17"/>
+        <located country="RI" province="prov-RI-23 prov-RI-24 prov-RI-25 prov-RI-28"/>
+        <located country="MAL" province="prov-Malaysia-11"/>
+        <depth>6218</depth>
+    </sea>
+    <sea id="sea-Sulusee" country="MAL RP" bordering="sea-Celebessee sea-Pacific sea-SouthChinaSea">
+        <name>Sulu Sea</name>
+        <located country="MAL" province="prov-Malaysia-11"/>
+        <located country="RP" province="prov-RP-4 prov-RP-5 prov-RP-6 prov-RP-7 prov-RP-8 prov-RP-9 prov-RP-10 prov-RP-16"/>
+        <depth>6218</depth>
+    </sea>
+</mondial>

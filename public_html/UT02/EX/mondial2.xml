@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mondial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="mondial2.xsd">
+    <country car_code="GR" area="131940" capital="Athens" memberships="org-BIS org-BSEC org-CE org-CCC org-ECE org-EBRD org-EIB org-CERN org-EU org-FAO org-G-6 org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IEA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-MTCR org-NAM org-ANC org-NATO org-EN org-NSG org-OECD org-OSCE org-OAS org-PCA org-UN org-UNESCO org-UNIDO org-UNIKOM org-MINURSO org-UNOMIG org-UNHCR org-UPU org-WEU org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO org-ZC">
+        <name>Greece</name>
+        <population>10538594</population>
+        <population_growth>0.42</population_growth>
+        <infant_mortality>7.4</infant_mortality>
+        <gdp_total>101700</gdp_total>
+        <gdp_agri>11.8</gdp_agri>
+        <gdp_ind>22.2</gdp_ind>
+        <gdp_serv>66</gdp_serv>
+        <inflation>8.1</inflation>
+        <indep_date from="Ottoman Empire">1829-01-01</indep_date>
+        <government>parliamentary republic</government>
+        <encompassed continent="europe" percentage="100"/>
+        <ethnicgroup percentage="93">Greek</ethnicgroup>
+        <religion percentage="98">Christian Orthodox</religion>
+        <religion percentage="1.3">Muslim</religion>
+        <language percentage="99">Greek</language>
+        <border country="ctr-AL" length="282"/>
+        <border country="ctr-MK" length="228"/>
+        <border country="ctr-BG" length="494"/>
+        <border country="ctr-TR" length="206"/>
+        <province id="prov-02" country="ctr-GR" capital="Komotini">
+            <name>Anatoliki Makedhonia kai Thraki</name>
+            <area>14157</area>
+            <population>574308</population>
+            <city id="Komotini" country="ctr-GR" is_state_cap="yes" province="prov-02">
+                <name>Komotini</name>
+            </city>
+            <city id="Kavalla" country="ctr-GR" province="prov-02">
+                <name>Kavalla</name>
+                <population year="1981">56705</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-03" country="ctr-GR" capital="Athens">
+            <name>Attiki</name>
+            <area>3808</area>
+            <population>3522769</population>
+            <city id="Athens" is_country_cap="yes" is_state_cap="yes" country="ctr-GR" province="prov-03">
+                <name>Athens</name>
+                <longitude>23.75</longitude>
+                <latitude>38.0</latitude>
+                <population year="1981">885737</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+            <city id="Piraeus" country="ctr-GR" province="prov-03">
+                <name>Piraeus</name>
+                <population year="1981">196389</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-04" country="ctr-GR" capital="5">
+            <name>Dhytiki Ellas</name>
+            <area>11350</area>
+            <population>702027</population>
+            <city id="Patrai" country="ctr-GR" is_state_cap="yes" province="prov-04">
+                <name>Patrai</name>
+                <population year="1981">142163</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-05" country="ctr-GR" capital="Kozani">
+            <name>Dhytiki Makedhonia</name>
+            <area>9451</area>
+            <population>292751</population>
+            <city id="Kozani" country="ctr-GR" is_state_cap="yes" province="prov-05">
+                <name>Kozani</name>
+            </city>
+        </province>
+        <province id="prov-06" country="ctr-GR" capital="Korfu">
+            <name>Ionioi Nisoi</name>
+            <area>2307</area>
+            <population>191003</population>
+            <city id="Korfu" country="ctr-GR" is_state_cap="yes" province="prov-06">
+                <name>Korfu</name>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-07" country="ctr-GR" capital="Ioannina">
+            <name>Ipiros</name>
+            <area>9203</area>
+            <population>339210</population>
+            <city id="Ioannina" country="ctr-GR" is_state_cap="yes" province="prov-07">
+                <name>Ioannina</name>
+            </city>
+        </province>
+        <province id="prov-08" country="ctr-GR" capital="Thessaloniki">
+            <name>Kedriki Makedhonia</name>
+            <area>19147</area>
+            <population>1729581</population>
+            <city id="Thessaloniki" country="ctr-GR" is_state_cap="yes" province="prov-08">
+                <name>Thessaloniki</name>
+                <longitude>22.95</longitude>
+                <latitude>40.6167</latitude>
+                <population year="1981">406413</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-09" country="ctr-GR" capital="Heraklion">
+            <name>Kriti</name>
+            <area>8336</area>
+            <population>537183</population>
+            <city id="Iraklion" country="ctr-GR" is_state_cap="yes" province="prov-09">
+                <name>Iraklion</name>
+                <population year="1981">102398</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+                <located_on island="island-Crete"/>
+            </city>
+        </province>
+        <province id="prov-10" country="ctr-GR" capital="Ermoupoli">
+            <name>Notion Aiyaion</name>
+            <area>5286</area>
+            <population>262522</population>
+            <city id="Ermoupoli" country="ctr-GR" is_state_cap="yes" province="prov-10">
+                <name>Ermoupoli</name>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-11" country="ctr-GR" capital="Tripoli">
+            <name>Peloponnisos</name>
+            <area>15490</area>
+            <population>605663</population>
+            <city id="Tripoli" country="ctr-GR" is_state_cap="yes" province="prov-11">
+                <name>Tripoli</name>
+            </city>
+        </province>
+        <province id="prov-12" country="ctr-GR" capital="Lamia">
+            <name>Sterea Ellas</name>
+            <area>15549</area>
+            <population>578876</population>
+            <city id="Lamia" country="ctr-GR" is_state_cap="yes" province="prov-12">
+                <name>Lamia</name>
+            </city>
+        </province>
+        <province id="prov-13" country="ctr-GR" capital="Larissa">
+            <name>Thessalia</name>
+            <area>14037</area>
+            <population>731030</population>
+            <city id="Larissa" country="ctr-GR" is_state_cap="yes" province="prov-13">
+                <name>Larisa</name>
+                <population year="1981">102426</population>
+            </city>
+            <city id="Volos" country="ctr-GR" province="prov-13">
+                <name>Volos</name>
+                <population year="1981">71378</population>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            </city>
+        </province>
+        <province id="prov-14" country="ctr-GR" capital="Mytilini">
+            <name>Voreion Aiyaion</name>
+            <area>3836</area>
+            <population>189541</population>
+            <city id="Mytilini" country="ctr-GR" is_state_cap="yes" province="prov-14">
+                <name>Mytilini</name>
+                <located_at watertype="sea" sea="sea-Mittelmeer"/>
+                <located_on island="island-Lesbos"/>
+            </city>
+        </province>
+    </country>
+</mondial>
