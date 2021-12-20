@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      form fieldset {
+        background-color: gainsboro;
+      }
+      form fieldset fieldset {
+        background-color: white;
+      }
+    </style>
+    <title>Tarea nueva</title>
+  </head>
+  <body>
+    <h1>1º - Lenguajes marcas y sistemas de gestión de información</h1>
+    <nav>
+      <ol>
+        <li>
+          <a href="https://moodle.mariaanasanz.es/my/">Área personal</a>
+        </li>
+        <li>Mis cursos</li>
+        <li>
+          <a title="1º - Lenguajes marcas y sistemas de gestión de información" href="https://moodle.mariaanasanz.es/course/view.php?id=165">DAM1_LMGI</a>
+        </li>
+        <li>
+          <a href="https://moodle.mariaanasanz.es/course/view.php?id=165&amp;section=3">UT3 Utilización de LM en entornos web. (26H)</a>
+        </li>
+        <li> Agregando un nuevo Tarea a UT3 Utilización de LM en entornos web. (26H) </li>
+      </ol>
+    </nav>
+    <h2>Agregando un nuevo Tarea a UT3 Utilización de LM en entornos web. (26H) </h2>
+    <form action="modedit.php" autocomplete="off" method="post">
+      <p>Expandir todo</p>
+      <fieldset id="id_general" >
+        <legend>General</legend>
+        <br />
+        <label for="id_name"> Nombre de la tarea </label>
+        <br />
+        <input id="id_name" name="name" size="64" type="text" value="" />
+        <br />
+        <br />
+        <label for="id_introeditor"> Descripción </label>
+        <br />
+        <textarea id="id_introeditor" spellcheck="true" cols="80" name="introeditor[text]" rows="10"></textarea>
+        <br />
+        <input id="id_showdescription" name="showdescription" type="checkbox" value="1" />
+        <label for="id_showdescription"> Muestra la descripción en la página del curso </label>
+        <br />
+        <br />
+        <fieldset id="id_introattachments_fieldset">
+          <legend>Archivos adicionales</legend> Puede arrastrar y soltar archivos aquí para añadirlos <br /> Suelte los archivos a subir aquí <br /> Cargando... <br />
+        </fieldset>
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_availability" >
+        <legend>Disponibilidad</legend>
+        <br />
+        <fieldset id="id_allowsubmissionsfromdate">
+          <legend>Permitir entregas desde</legend>
+          <label for="id_allowsubmissionsfromdate_day"> Día </label>
+          <select id="id_allowsubmissionsfromdate_day" name="allowsubmissionsfromdate[day]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option selected="selected" value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_month"> Mes </label>
+          <select id="id_allowsubmissionsfromdate_month" name="allowsubmissionsfromdate[month]">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option selected="selected" value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_year"> Año </label>
+          <select id="id_allowsubmissionsfromdate_year" name="allowsubmissionsfromdate[year]">
+            <option value="2020">2020</option>
+            <option selected="selected" value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_hour"> Hora </label>
+          <select id="id_allowsubmissionsfromdate_hour" name="allowsubmissionsfromdate[hour]">
+            <option selected="selected" value="0">00</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_minute"> Minuto </label>
+          <select id="id_allowsubmissionsfromdate_minute" name="allowsubmissionsfromdate[minute]">
+            <option selected="selected" value="0">00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+          <label>
+            <input id="id_allowsubmissionsfromdate_enabled" checked="checked" name="allowsubmissionsfromdate[enabled]" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <br />
+        <fieldset id="id_allowsubmissionsfromdate">
+          <legend>Fecha de entrega</legend>
+          <label for="id_allowsubmissionsfromdate_day"> Día </label>
+          <select id="id_allowsubmissionsfromdate_day" name="allowsubmissionsfromdate[day]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option selected="selected" value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_month"> Mes </label>
+          <select id="id_allowsubmissionsfromdate_month" name="allowsubmissionsfromdate[month]">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option selected="selected" value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_year"> Año </label>
+          <select id="id_allowsubmissionsfromdate_year" name="allowsubmissionsfromdate[year]">
+            <option value="2020">2020</option>
+            <option selected="selected" value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_hour"> Hora </label>
+          <select id="id_allowsubmissionsfromdate_hour" name="allowsubmissionsfromdate[hour]">
+            <option selected="selected" value="0">00</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_minute"> Minuto </label>
+          <select id="id_allowsubmissionsfromdate_minute" name="allowsubmissionsfromdate[minute]">
+            <option selected="selected" value="0">00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+          <label>
+            <input id="id_allowsubmissionsfromdate_enabled" name="allowsubmissionsfromdate[enabled]" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <br />
+        <fieldset id="id_allowsubmissionsfromdate">
+          <legend>Fecha límite</legend>
+          <label for="id_allowsubmissionsfromdate_day"> Día </label>
+          <select id="id_allowsubmissionsfromdate_day" name="allowsubmissionsfromdate[day]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option selected="selected" value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_month"> Mes </label>
+          <select id="id_allowsubmissionsfromdate_month" name="allowsubmissionsfromdate[month]">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option selected="selected" value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_year"> Año </label>
+          <select id="id_allowsubmissionsfromdate_year" name="allowsubmissionsfromdate[year]">
+            <option value="2020">2020</option>
+            <option selected="selected" value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_hour"> Hora </label>
+          <select id="id_allowsubmissionsfromdate_hour" name="allowsubmissionsfromdate[hour]">
+            <option selected="selected" value="0">00</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_minute"> Minuto </label>
+          <select id="id_allowsubmissionsfromdate_minute" name="allowsubmissionsfromdate[minute]">
+            <option selected="selected" value="0">00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+          <label>
+            <input id="id_allowsubmissionsfromdate_enabled" name="allowsubmissionsfromdate[enabled]" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <br />
+        <fieldset id="id_allowsubmissionsfromdate">
+          <legend>Recordarme calificar en</legend>
+          <label for="id_allowsubmissionsfromdate_day"> Día </label>
+          <select id="id_allowsubmissionsfromdate_day" name="allowsubmissionsfromdate[day]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option selected="selected" value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_month"> Mes </label>
+          <select id="id_allowsubmissionsfromdate_month" name="allowsubmissionsfromdate[month]">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option selected="selected" value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_year"> Año </label>
+          <select id="id_allowsubmissionsfromdate_year" name="allowsubmissionsfromdate[year]">
+            <option value="2020">2020</option>
+            <option selected="selected" value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_hour"> Hora </label>
+          <select id="id_allowsubmissionsfromdate_hour" name="allowsubmissionsfromdate[hour]">
+            <option selected="selected" value="0">00</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_minute"> Minuto </label>
+          <select id="id_allowsubmissionsfromdate_minute" name="allowsubmissionsfromdate[minute]">
+            <option selected="selected" value="0">00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+          <label>
+            <input id="id_allowsubmissionsfromdate_enabled" name="allowsubmissionsfromdate[enabled]" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <br />
+        <input id="id_alwaysshowdescription" checked="checked" name="alwaysshowdescription" type="checkbox" value="1" />
+        <label for="id_alwaysshowdescription"> Mostrar siempre la descripción </label>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_delivery">
+        <legend>Tipos de entrega</legend>
+        <label>
+          <input id="id_assignsubmission_onlinetext_enabled" name="assignsubmission_onlinetext_enabled" type="checkbox" value="1" /> Texto en línea </label>
+        <label>
+          <input id="id_assignsubmission_file_enabled" checked="checked" name="assignsubmission_file_enabled" type="checkbox" value="1" /> Archivos enviados </label>
+        <br />
+        <br />
+        <fieldset>
+          <legend>Límite de palabras</legend>
+          <input id="id_assignsubmission_onlinetext_wordlimit" maxlength="6" name="assignsubmission_onlinetext_wordlimit" size="6" type="text" value="" />
+          <label>
+            <input id="id_assignsubmission_onlinetext_wordlimit_enabled" name="assignsubmission_onlinetext_wordlimit_enabled" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <label for="id_assignsubmission_file_maxfiles">
+          <br /> Número máximo de archivos subidos </label>
+        <br />
+        <select id="id_assignsubmission_file_maxfiles" name="assignsubmission_file_maxfiles">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option selected="selected" value="20">20</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_assignsubmission_file_maxsizebytes"> Tamaño máximo de la entrega </label>
+        <br />
+        <select id="id_assignsubmission_file_maxsizebytes" name="assignsubmission_file_maxsizebytes">
+          <option selected="selected" value="0"> Curso límite de subida (10MB) </option>
+          <option value="10485760">10MB</option>
+          <option value="5242880">5MB</option>
+          <option value="2097152">2MB</option>
+          <option value="1048576">1MB</option>
+          <option value="512000">500KB</option>
+          <option value="102400">100KB</option>
+          <option value="51200">50KB</option>
+          <option value="10240">10KB</option>
+        </select>
+        <br />
+        <br />
+        <fieldset>
+          <legend>Tipos de archivo aceptados</legend>
+          <br />
+          <label for="id_assignsubmission_file_filetypes"> Tipos de archivo aceptados </label>
+          <input id="id_assignsubmission_file_filetypes" name="assignsubmission_file_filetypes[filetypes]" type="text" value="" />
+          <p>No hay selección</p>
+        </fieldset>
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_feedbacktypes">
+        <legend>Tipos de retroalimentación</legend>
+        <br />
+        <fieldset>
+          <legend>Tipos de retroalimentación</legend>
+          <br />
+          <label>
+            <input id="id_assignfeedback_comments_enabled" checked="checked" name="assignfeedback_comments_enabled" type="checkbox" value="1" /> Comentarios de retroalimentación </label>
+          <label>
+            <input id="id_assignfeedback_offline_enabled" name="assignfeedback_offline_enabled" type="checkbox" value="1" /> Hoja de calificaciones externa </label>
+          <label>
+            <input id="id_assignfeedback_file_enabled" name="assignfeedback_file_enabled" type="checkbox" value="1" /> Archivos de retroalimentación </label>
+          <br />
+          <br />
+        </fieldset>
+        <br />
+        <label for="id_assignfeedback_comments_commentinline"> Comentario en línea </label>
+        <select id="id_assignfeedback_comments_commentinline" name="assignfeedback_comments_commentinline">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_submissionsettings">
+        <legend>Configuración de entrega</legend>
+        <br />
+        <label for="id_submissiondrafts"> Requiere que los alumnos pulsen el botón de envío </label>
+        <select id="id_submissiondrafts" name="submissiondrafts">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_requiresubmissionstatement"> Es necesario que los estudiantes acepten las condiciones de entrega </label>
+        <select id="id_requiresubmissionstatement" name="requiresubmissionstatement">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_attemptreopenmethod"> Intentos adicionales </label>
+        <select id="id_attemptreopenmethod" name="attemptreopenmethod">
+          <option selected="selected" value="none">Nunca</option>
+          <option value="manual">Manual</option>
+          <option value="untilpass">Automática hasta aprobar</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_maxattempts"> Número máximo de intentos </label>
+        <select id="id_maxattempts" name="maxattempts">
+          <option selected="selected" value="-1">Ilimitado</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_groupsubmissionsettings">
+        <legend>Configuración de entrega por grupo</legend>
+        <br />
+        <label for="id_teamsubmission"> Entrega por grupos </label>
+        <select id="id_teamsubmission" name="teamsubmission">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_preventsubmissionnotingroup"> Se requiere formar parte de un grupo para realizar la entrega </label>
+        <select id="id_preventsubmissionnotingroup" name="preventsubmissionnotingroup">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_requireallteammemberssubmit"> Se requiere que todos los miembros del grupo entreguen </label>
+        <select id="id_requireallteammemberssubmit" name="requireallteammemberssubmit">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_teamsubmissiongroupingid"> Agrupamiento para los grupos </label>
+        <select id="id_teamsubmissiongroupingid" name="teamsubmissiongroupingid">
+          <option value="0">Ninguno</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_notifications">
+        <legend>Avisos</legend>
+        <br />
+        <label for="id_sendnotifications"> Enviar aviso de entregas a los que califican </label>
+        <select id="id_sendnotifications" name="sendnotifications">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_sendlatenotifications"> Notificar a los evaluadores las entregas fuera de plazo </label>
+        <select id="id_sendlatenotifications" name="sendlatenotifications">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_sendstudentnotifications"> Valor por defecto para "Notificar a los estudiantes" </label>
+        <select id="id_sendstudentnotifications" name="sendstudentnotifications">
+          <option value="0">No</option>
+          <option selected="selected" value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_modstandardgrade">
+        <legend>Calificación</legend>
+        <br />
+        <fieldset>
+          <legend>Calificación</legend>
+          <br />
+          <label for="id_grade_modgrade_type"> Tipo </label>
+          <select id="id_grade_modgrade_type" name="grade[modgrade_type]">
+            <option value="none">Ninguna</option>
+            <option value="scale">Escala</option>
+            <option selected="selected" value="point"> Puntuación </option>
+          </select>
+          <br />
+          <br />
+          <label for="id_grade_modgrade_scale">Escala</label>
+          <select id="id_grade_modgrade_scale" name="grade[modgrade_scale]">
+            <option value="2"> Escala de competencia por defecto </option>
+            <option value="1"> Vías de conocimiento separadas y conectadas </option>
+            <option value="40"> Excellent/Very poor (4 point) </option>
+            <option value="39">Yes/No (2 point)</option>
+          </select>
+          <br />
+          <br />
+          <label for="id_grade_modgrade_point">Calificación máxima</label>
+          <input id="id_grade_modgrade_point" name="grade[modgrade_point]" type="text" value="100" />
+          <br />
+          <br />
+        </fieldset>
+        <br />
+        <label for="id_advancedgradingmethod_submissions"> Método de calificación </label>
+        <select id="id_advancedgradingmethod_submissions" name="advancedgradingmethod_submissions">
+          <option selected="selected" value=""> Calificación simple directa </option>
+          <option value="guide">Guía de evaluación</option>
+          <option value="rubric">Rúbrica</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_gradecat"> Categoría de calificaciones </label>
+        <select id="id_gradecat" name="gradecat">
+          <option value="370">Sin categorizar</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_gradepass"> Calificación para aprobar </label>
+        <input id="id_gradepass" name="gradepass" type="text" value="" />
+        <br />
+        <br />
+        <label for="id_blindmarking"> Envíos anónimos </label>
+        <select id="id_blindmarking" name="blindmarking">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_hidegrader"> Ocultar la identidad del evaluador a los estudiantes </label>
+        <select id="id_hidegrader" name="hidegrader">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_markingworkflow"> Usar workflow (flujo de trabajo) de calificaciones </label>
+        <select id="id_markingworkflow" name="markingworkflow">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_markingallocation"> Usar asignación de evaluadores </label>
+        <select id="id_markingallocation" name="markingallocation">
+          <option selected="selected" value="0">No</option>
+          <option value="1">Sí</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_modstandardelshdr">
+        <legend>Ajustes comunes del módulo</legend>
+        <br />
+        <label for="id_visible"> Disponibilidad </label>
+        <select id="id_visible" name="visible">
+          <option selected="selected" value="1"> Mostrar en la página del curso </option>
+          <option value="0">Ocultar a estudiantes</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_cmidnumber"> Número ID </label>
+        <input id="id_cmidnumber" name="cmidnumber" type="text" value="" />
+        <br />
+        <br />
+        <label for="id_groupmode"> Modo de grupo </label>
+        <select id="id_groupmode" name="groupmode">
+          <option selected="selected" value="0">No hay grupos</option>
+          <option value="1">Grupos separados</option>
+          <option value="2">Grupos visibles</option>
+        </select>
+        <br />
+        <br />
+        <label for="id_groupingid"> Agrupamiento </label>
+        <select id="id_groupingid" name="groupingid">
+          <option selected="selected" value="0">Ninguno</option>
+        </select>
+        <br />
+        <br />
+        <button id="restrictbygroup" disabled="disabled" type="button"> Añadir restricción de acceso por grupo/agrupamiento </button>
+        <br />
+        <br />
+        </div>
+      </fieldset>
+      <br />
+      <fieldset id="id_availabilityconditionsheader">
+        <legend>Restricciones de acceso</legend>
+        <br />
+        <label for="id_availabilityconditionsjson"> Restricciones de acceso </label>
+        <br />
+        <textarea id="id_availabilityconditionsjson" name="availabilityconditionsjson"></textarea>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_activitycompletionheader">
+        <legend>Finalización de actividad</legend>
+        <br />
+        <label for="id_completion"> Rastreo de finalización </label>
+        <select id="id_completion" name="completion">
+          <option value="0"> No indicar finalización de la actividad </option>
+          <option selected="selected" value="1"> Los estudiantes pueden marcar manualmente la actividad como completada </option>
+          <option value="2"> Mostrar la actividad como completada cuando se cumplan las condiciones </option>
+        </select>
+        <br />
+        <br />
+        <label for="id_completionview"> Requerir ver </label>
+        <input id="id_completionview" checked="checked" name="completionview" type="checkbox" value="1" aria-describedby="id_completionview_description" />
+        <br />
+        <br />
+        <label for="id_completionusegrade"> Requerir calificación </label>
+        <input id="id_completionusegrade" name="completionusegrade" type="checkbox" value="1" aria-describedby="id_completionusegrade_description" />
+        <br />
+        <br />
+        <input id="id_completionsubmit" checked="checked" name="completionsubmit" type="checkbox" value="1" />
+        <label for="id_completionsubmit"> El estudiante debe entregar esta actividad para completarla </label>
+        <br />
+        <br />
+        <fieldset id="id_allowsubmissionsfromdate">
+          <legend>Se espera finalizar en</legend>
+          <label for="id_allowsubmissionsfromdate_day"> Día </label>
+          <select id="id_allowsubmissionsfromdate_day" name="allowsubmissionsfromdate[day]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option selected="selected" value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_month"> Mes </label>
+          <select id="id_allowsubmissionsfromdate_month" name="allowsubmissionsfromdate[month]">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option selected="selected" value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_year"> Año </label>
+          <select id="id_allowsubmissionsfromdate_year" name="allowsubmissionsfromdate[year]">
+            <option value="2020">2020</option>
+            <option selected="selected" value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_hour"> Hora </label>
+          <select id="id_allowsubmissionsfromdate_hour" name="allowsubmissionsfromdate[hour]">
+            <option selected="selected" value="0">00</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+          <label for="id_allowsubmissionsfromdate_minute"> Minuto </label>
+          <select id="id_allowsubmissionsfromdate_minute" name="allowsubmissionsfromdate[minute]">
+            <option selected="selected" value="0">00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+          <label>
+            <input id="id_allowsubmissionsfromdate_enabled" name="allowsubmissionsfromdate[enabled]" type="checkbox" value="1" /> Habilitar </label>
+        </fieldset>
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_tagshdr">
+        <legend>Marcas</legend> HTML, forms, fielset, legend, label, input, select, button, submit, ...
+      </fieldset>
+      <br />
+      <fieldset id="id_competenciessection">
+        <legend>Competencias</legend>
+        <br />
+        <label for="id_competency_rule"> Al finalizar la actividad: </label>
+        <select id="id_competency_rule" name="competency_rule">
+          <option value="0">No hacer nada</option>
+          <option value="1">Adjuntar evidencia</option>
+          <option value="2">Enviar para revisión</option>
+          <option value="3">Completar la competencia</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset id="id_buttons">
+        <legend></legend>
+        <br />
+        <input id="id_submitbutton2" name="submitbutton2" type="submit" value="Guardar cambios y regresar al curso" />
+        <input id="id_submitbutton" name="submitbutton" type="submit" value="Guardar cambios y mostrar" />
+        <input id="id_cancel" name="cancel" type="submit" />
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <p>En este formulario hay campos obligatorios. Usted se ha identificado como <a href="#">Aitor E</a> ( <a href="#">Cerrar sesión</a>) </p>
+      <p>
+        <a href="#">Ayuda y documentación</a>
+      </p>
+  </body>
+</html>

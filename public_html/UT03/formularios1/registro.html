@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de registro - Mi web</title>
+  </head>
+  <body>
+    <form method="get" action="">
+      <h1>Formulario de registro</h1>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" size="50" /><br />
+      <br />
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" name="apellidos" id="apellidos" size="50" /><br />
+      <br />
+      Sexo:
+      <input type="radio" id="sexoH" name="sexo" value="H" />
+      <label for="sexoH">Hombre</label>
+      <input type="radio" id="sexoM" name="sexo" value="M" />
+      <label for="sexoM">Mujer</label><br />
+      <br />
+      <label for="email">Correo:</label>
+      <input type="email" name="email" id="email" /><br />
+      <br />
+      <label for="poblacion">Población:</label>
+      <select name="poblacion" id="poblacion">
+        <option value="alicante">Alicante</option>
+        <option value="almeria">Almería</option>
+        <option value="albacete">Albacete</option></select
+      ><br />
+      <br />
+      <label for="desc">Descripción:</label>
+      <textarea id="desc" name="desc" rows="6" cols="40"> </textarea><br />
+      <br />
+      <input type="checkbox" name="info" id="info" checked />
+      <label for="info"
+        >Deseo recibir información sobre novedades y ofertas</label
+      ><br />
+      <br />
+      <input type="checkbox" name="condi" id="condi" />
+      <label for="condi"
+        >Declaro haber leido y aceptar las condiciones generales del programa y
+        la normativa sobre protección de datos</label
+      ><br />
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

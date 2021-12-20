@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paso-3</title>
+  </head>
+  <body>
+    <form action="cg-paso-4.html" method="get">
+      <p>CREAR FORMULARIO PARA FAMILIA/GRUPO</p>
+      <img src="imagenes/step-3.jpg" alt="step-3" width="100%" />
+      <h1>Paso 3: antecedentes de viaje</h1>
+
+      <label for="orgPais"
+        >Porfavor, indique el país de inicio de su viaje *</label
+      >
+      <br />
+      <select name="orgPais" id="orgPais">
+        <option value="-1">Seleccione una opción</option>
+      </select>
+      <br /><br />
+
+      Por favor indique todos los países por que ha viajado/transitado en los
+      últimos 14 días<br />
+      <select name="pais1" id="pais1">
+        <option value="-1">Seleccione una opción</option>
+      </select>
+      <br />
+      <select name="pais2" id="pais2">
+        <option value="-1">Seleccione una opción</option>
+      </select>
+      <br />
+      <select name="pais3" id="pais3">
+        <option value="-1">Seleccione una opción</option>
+      </select>
+      <br />
+      <select name="pais4" id="pais4">
+        <option value="-1">Seleccione una opción</option>
+      </select>
+      <br />
+      <input type="button" value="Añadir país" /><br /><br />
+      <fieldset>
+        <legend>Motivo del viaje, Por favor, marque una opción</legend>
+        <input type="radio" name="motivo" value="turismo" id="turismo" />
+        <label for="turismo">Turismo</label>
+        <input type="radio" name="motivo" value="trabajo" id="trabajo" />
+        <label for="trabajo">Trabajo</label>
+        <input type="radio" name="motivo" value="visita" id="visita" />
+        <label for="visita">Visita familiar</label><br />
+        <input type="radio" name="motivo" value="mision" id="mision" />
+        <label for="mision">Misión especial</label>
+        <input
+          type="radio"
+          name="motivo"
+          value="cooperacion"
+          id="cooperacion"
+        />
+        <label for="cooperacion">Cooperación</label>
+        <input type="radio" name="motivo" value="otros" id="otros" />
+        <label for="otros">otros</label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Regresar" />
+      <input type="submit" value="Guardar y continuar" />
+    </form>
+  </body>
+</html>

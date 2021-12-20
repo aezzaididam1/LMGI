@@ -1,0 +1,65 @@
+================================================================================
+
+apellidos
+nombre
+idper
+vuelo
+fecha
+email1
+email2
+dstNoSp
+terms
+
+================================================================================
+
+apellidos
+nombre
+sexo    M/F
+idper
+
+================================================================================
+
+linea
+vuelo
+asiento
+fllegada
+hotel
+callenro
+nropiso
+ciudad
+comunidad
+provincia
+cp
+dirpte
+
+================================================================================
+
+orgPais
+pais1
+pais2
+pais3
+pais4
+motivo  turismo/trabajo/visita/mision/cooperacion/otros
+
+================================================================================
+
+contacto    S/N
+
+sintomas    S/N
+fiebre
+respiratoria
+tos
+
+visita    S/N
+enContacto
+sinContacto
+sospecha
+otrosMotivos
+
+prueba    S/N
+
+================================================================================
+
+aceptar
+
+================================================================================

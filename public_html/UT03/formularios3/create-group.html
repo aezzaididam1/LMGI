@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Spain Travel Health</title>
+  </head>
+
+  <body>
+    <form action="create-group.html" method="get">
+      <ul>
+        <li>Guía del pasajero</li>
+        <li>Ayuda</li>
+        <li>
+          Elija idioma:
+          <select name="idioma" id="idioma">
+            <option value="en">English</option>
+            <option value="es" selected>Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </li>
+        <li><a href="#">?</a></li>
+      </ul>
+    </form>
+
+    <form action="cg-paso-1.html" method="get">
+      <h1>SpTH Spain Travel Health</h1>
+
+      <div>
+        <p>
+          Para crear su formulario FCS de familia/grupo debe ser mayor de edad.
+        </p>
+
+        <p>
+          Una vez rellenados los datos, recibirá un e-mail en su cuenta de
+          correo, con un código de seguridad y un enlace para poder crear el
+          formulario de grupo/familia. En este formulario deberá indicar sus
+          datos de viaje y los datos de todos los pasajeros que viajarán con
+          usted. Una vez rellenados los datos, recibirá un código QR por cada
+          uno de los pasajeros del grupo.
+        </p>
+
+        <p>
+          Recuerde que es obligatorio cumplimentar este formulario para todos
+          los pasajeros que entren en España procedentes de cualquier país y que
+          cada formulario está asociado a un único viaje, es personal e
+          intransferible.
+        </p>
+
+        <p>
+          Sus datos personales serán tratados de acuerdo con el Reglamento (UE)
+          2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016,
+          relativo a la protección de las personas físicas en lo que respecta al
+          tratamiento de sus datos personales y a la libre circulación de estos
+          datos y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de
+          Datos Personales y Garantía de los Derechos Digitales y otras
+          reglamentaciones relacionadas.
+        </p>
+
+        <p>
+          El responsable del tratamiento de los datos será el Ministerio de
+          Sanidad (y las demás autoridades sanitarias). Para más información
+          puede ver la sección sobre <a href="#">tratamiento de datos</a>.
+        </p>
+
+        <p>
+          NO DEBE VIAJAR si tiene síntomas compatibles con COVID-19 (fiebre,
+          tos, dificultad respiratoria), de inicio reciente, si ha sido
+          diagnosticado de COVID-19 en los últimos 14 días o si ha tenido
+          contacto estrecho con un caso confirmado de COVID-19 en las dos
+          últimas semanas.
+        </p>
+      </div>
+
+      <h2>Datos del pasajero responsable</h2>
+
+      <label for="apellidos">Apellidos *</label><br />
+      <input type="text" id="apellidos" name="apellidos" /><br />
+      <label for="nombre">Nombre *</label><br />
+      <input type="text" id="nombre" name="nombre" /><br />
+      <label for="idper"
+        >Número de pasaporte, DNI/NIE o número de identificación personal
+        *</label
+      ><br />
+      <input type="text" id="idper" name="idper" /><br />
+      <label for="vuelo">Número de vuelo * <a href="#">?</a></label
+      ><br />
+      <input type="text" id="vuelo" name="vuelo" /><br />
+      <label for="fecha">Fecha de llegada *</label><br />
+      <input type="date" id="fecha" name="fecha" /><br />
+      <label for="email1">Dirección de correo electrónico *</label><br />
+      <input type="email" id="email1" name="email1" /><br />
+      <label for="email2">Confirmar correo electrónico *</label><br />
+      <input type="email" id="email2" name="email2" /><br />
+
+      <input type="checkbox" id="dstNoSp" name="dstNoSp" />
+      <label for="dstNoSp"
+        >Marque aquí si su destino final no es España (sólo llega a España en
+        tránsito)</label
+      >
+
+      <h2>Información legal</h2>
+      <div>
+        <p>
+          Cada pasajero deberá contestar un formulario asociado a cada viaje,
+          personal e intransferible. Asegure que rellena este formulario y lo
+          firma antes de volar a España. Y recuerde que,tras la firma del
+          formulario FCS, recibirá un código QR asociado a su viaje, que es
+          obligatorio traer en su móvil o impreso en papel para poder pasar el
+          control sanitario aeroportuario.
+        </p>
+
+        <p>
+          Asimismo, al pasar el control aeroportuario puede ser sometido a un
+          control de temperatura mediante termómetros sin contacto o por cámaras
+          termográficas. Estas pruebas se realizarán garantizando la privacidad
+          del pasajero y los datos obtenidos no serán objeto de almacenamiento.
+        </p>
+        <dl>
+          <dt>¿Quién es el responsable del tratamiento de sus datos?</dt>
+          <dd>
+            El responsable del tratamiento "SpTH Spain Travel Health"
+            (https://www.spth.gob.es/) es el Ministerio de Sanidad de España.
+          </dd>
+          <dt>¿Cuál es la finalidad para el tratamiento de sus datos?</dt>
+          <dd>
+            Vigilancia epidemiológica y control sanitario por la pandemia
+            provocada por la COVID-19. Garantizar la prestación de los servicios
+            ordinarios o extraordinarios necesarios para el control sanitario de
+            la entrada de pasajeros procedentes de cualquier país. Usos
+            estadísticos e investigación sanitaria.
+          </dd>
+          <dt>¿Cuál es la base de legitimación aplicable?</dt>
+          <dd>
+            La base jurídica principal que legitima el tratamiento "SpTH Spain
+            Travel Health" es el art. 6.1.e) del Reglamento General de
+            Protección de Datos (RGPD/GDPR): "El tratamiento es necesario para
+            el cumplimiento de una misión realizada en interés público o en el
+            ejercicio de poderes públicos conferidos al responsable del
+            tratamiento".
+          </dd>
+          <dt>¿A qué destinatarios se comunican sus datos?</dt>
+          <dd>
+            Áreas y Dependencias de Sanidad de las Delegaciones y
+            Subdelegaciones del Gobierno de España, Autoridades Sanitarias de
+            las Comunidades Autónomas, así como a otros organismos o
+            administraciones sanitarias y a las autoridades sanitarias de otros
+            países.
+          </dd>
+          <dt>¿Cuáles son sus derechos cuando nos facilita sus datos?</dt>
+          <dd>
+            Puede ejercer, entre otros, los derechos de: acceso, cancelación,
+            supresión, limitación, rectificación, portabilidad y derecho al
+            olvido en la medida en que las obligaciones legales lo permitan.
+          </dd>
+          <dt>¿De dónde proceden los datos que tratamos sobre usted?</dt>
+          <dd>
+            A través de esta Web, sus datos personales pueden ser recogidos
+            directamente a través de usted (mediante la cumplimentación del
+            formulario SPTH, por ejemplo) o indirectamente (a través de
+            cookies).
+          </dd>
+          <dt>¿Qué cookies se recogen?</dt>
+          <dd>
+            Se recaban cookies técnicas, necesarias para la navegación, en base
+            al interés legítimo del responsable del Tratamiento (art 6. 1.f del
+            RGPD). Se utiliza un componente de hcaptcha de Intuition Machines,
+            Inc, para proporcionar seguridad (confirmar que el acceso a la web
+            es realizado por una persona y no un robot). La cookie no comparte
+            datos personales. También se utiliza tecnología WAF (captura de la
+            IP de origen) para prevenir ciberataques.
+            <strong
+              >Si quiere obtener más información sobre el tratamiento de los
+              datos personales,</strong
+            >
+            pinche <a href="#">aquí</a>.
+          </dd>
+        </dl>
+
+        <p>
+          La firma de este formulario conlleva la responsabilidad sobre la
+          veracidad de la información, la aceptación de las condiciones legales,
+          de tratamiento de datos y el cumplimiento de normativas sanitarias
+          indicadas en cualquier momento por las autoridades.
+        </p>
+
+        <p>
+          Si es menor de edad, o persona dependiente, el formulario deberá ser
+          firmado por su tutor legal.
+        </p>
+      </div>
+
+      <input type="checkbox" id="terms" name="terms" />
+      <label for="terms"
+        >Sí, he leído y entiendo la información y acepto estos términos</label
+      >
+      <br /><br />
+
+      <input type="submit" value="Enviar" />
+
+      <p>
+        Su salud es lo más importante. Si presenta síntomas compatibles con
+        COVID-19 (fiebre, dificultad respiratoria, tos) le recomendamos no
+        viajar y solicitar asistencia sanitaria lo antes posible en el lugar en
+        el que se encuentre. Recuerde que su Salud también viaja.
+      </p>
+    </form>
+  </body>
+</html>

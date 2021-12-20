@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paso-2</title>
+  </head>
+  <body>
+    <form action="cg-paso-3.html" method="get">
+      <p>CREAR FORMULARIO PARA FAMILIA/GRUPO</p>
+      <img src="imagenes/step-2.jpg" alt="step-2" width="100%" />
+      <h1>Paso 2: información del viaje</h1>
+
+      <h2>Información del vuelo de llegada a España</h2>
+
+      <label for="linea">Línea aérea *</label>
+      <input type="text" name="linea" id="linea" search autocomplete /><br />
+
+      <label for="vuelo">Número de vuelo</label>
+      <input type="text" name="vuelo" id="vuelo" autocomplete /> <br /><br />
+
+      <label for="asiento">Número de asiento *</label>
+      <input type="text" name="asiento" id="asiento" autocomplete /><br />
+
+      <label for="fllegada">Fecha de llegada</label>
+      <input type="date" name="fllegada" id="fllegada" autocomplete />
+      <br /><br />
+
+      <h2>Dirección estancia: sólo escriba el lugar que visitará primero</h2>
+
+      <label for="hotel">Nombre del hotel (si es el caso)</label>
+      <input type="text" name="hotel" id="hotel" autocomplete /><br />
+
+      <label for="callenro">Calle y número</label>
+      <input type="text" name="callenro" id="callenro" autocomplete />
+      <br /><br />
+
+      <label for="nropiso">Número de apartamento / piso</label>
+      <input type="text" name="nropiso" id="nropiso" autocomplete /><br />
+
+      <label for="ciudad">Ciudad / población *</label>
+      <input type="text" name="ciudad" id="ciudad" autocomplete /> <br /><br />
+
+      <label for="comunidad">Comunidad / ciudad autónoma *</label>
+      <select name="comunidad" id="comunidad">
+        <option value="-1">Seleccione una opción</option>
+        <option value="Andalucía">Andalucía</option>
+        <option value="Aragón">Aragón</option>
+        <option value="Asturias">Asturias</option>
+        <option value="Baleares">Baleares</option>
+        <option value="Canarias">Canarias</option>
+        <option value="Cantabria">Cantabria</option>
+        <option value="Castilla_la_Mancha">Castilla la Mancha</option>
+        <option value="Castilla_y_León">Castilla y León</option>
+        <option value="Cataluña">Cataluña</option>
+        <option value="Comunidad_Valenciana">Comunidad Valenciana</option>
+        <option value="Extremadura">Extremadura</option>
+        <option value="Galicia">Galicia</option>
+        <option value="La_Rioja">La Rioja</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Murcia">Murcia</option>
+        <option value="Navarra">Navarra</option>
+        <option value="País_Vasco">País Vasco</option>
+        <option value="Ceuta">Ceuta</option>
+        <option value="Melilla">Melilla</option>
+      </select>
+      <br />
+
+      <label for="provincia">Provincia</label>
+      <select name="provincia" id="provincia">
+        <option value="-1">Seleccione una opción</option>
+        <option value="A_Coruña">A Coruña</option>
+        <option value="Álava">Álava</option>
+        <option value="Albacete">Albacete</option>
+        <option value="Alicante">Alicante</option>
+        <option value="Almería">Almería</option>
+        <option value="Asturias">Asturias</option>
+        <option value="Ávila">Ávila</option>
+        <option value="Badajoz">Badajoz</option>
+        <option value="Baleares">Baleares</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Burgos">Burgos</option>
+        <option value="Cáceres">Cáceres</option>
+        <option value="Cádiz">Cádiz</option>
+        <option value="Cantabria">Cantabria</option>
+        <option value="Castellón">Castellón</option>
+        <option value="Ciudad_Real">Ciudad Real</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="Cuenca">Cuenca</option>
+        <option value="Girona">Girona</option>
+        <option value="Granada">Granada</option>
+        <option value="Guadalajara">Guadalajara</option>
+        <option value="Gipuzkoa">Gipuzkoa</option>
+        <option value="Huelva">Huelva</option>
+        <option value="Huesca">Huesca</option>
+        <option value="Jaén">Jaén</option>
+        <option value="La_Rioja">La Rioja</option>
+        <option value="Las_Palmas">Las Palmas</option>
+        <option value="León">León</option>
+        <option value="Lérida">Lérida</option>
+        <option value="Lugo">Lugo</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Málaga">Málaga</option>
+        <option value="Murcia">Murcia</option>
+        <option value="Navarra">Navarra</option>
+        <option value="Ourense">Ourense</option>
+        <option value="Palencia">Palencia</option>
+        <option value="Pontevedra">Pontevedra</option>
+        <option value="Salamanca">Salamanca</option>
+        <option value="Segovia">Segovia</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Soria">Soria</option>
+        <option value="Tarragona">Tarragona</option>
+        <option value="Santa_Cruz_de_Tenerife">Santa Cruz de Tenerife</option>
+        <option value="Teruel">Teruel</option>
+        <option value="Toledo">Toledo</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Valladolid">Valladolid</option>
+        <option value="Vizcaya">Vizcaya</option>
+        <option value="Zamora">Zamora</option>
+        <option value="Zaragoza">Zaragoza</option>
+      </select>
+      <br /><br />
+
+      <label for="cp">Código postal</label>
+      <input type="number" name="cp" id="cp" autocomplete /> <br /><br />
+
+      <input type="checkbox" name="dirpte" id="dirpte" />
+      <label for="dirpte"
+        >Marque en caso de que esta dirección sea permanente para toda su
+        estancia en el país</label
+      >
+      <br /><br />
+      <input type="submit" value="Regresar" />
+      <input type="submit" value="Guardar y continuar" />
+    </form>
+  </body>
+</html>

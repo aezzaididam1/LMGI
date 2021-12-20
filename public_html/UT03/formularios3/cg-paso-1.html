@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paso-1</title>
+  </head>
+  <body>
+    <form action="cg-paso-2.html" method="get">
+      <p>CREAR FORMULARIO PARA FAMILIA/GRUPO</p>
+      <img src="imagenes/step-1.jpg" alt="step-1" width="100%" />
+      <h1>Paso 1: información personal</h1>
+
+      <h2>Información personal responsable de grupo</h2>
+
+      <label for="apellidos">Apellidos * </label><br />
+      <input type="text" name="apellidos" id="apellidos" /><br /><br />
+
+      <label for="nombre">Nombre *</label><br />
+      <input type="text" name="nombre" id="nombre" /><br /><br />
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" value="M" />
+        <label for="sexo">Masculino</label>
+        <input type="radio" name="sexo" value="F" />
+        <label for="sexo">Femenino</label><br />
+      </fieldset>
+      <br />
+      <label for="idper">
+        Número de pasaporte, DNI o identificador personal * </label
+      ><br />
+      <input type="text" name="idper" id="idper" /><br /><br />
+      <input type="submit" value="Regresar" />
+      <input type="submit" value="Guardar y continuar" />
+    </form>
+  </body>
+</html>

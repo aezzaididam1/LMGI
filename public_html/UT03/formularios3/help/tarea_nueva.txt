@@ -1,0 +1,855 @@
+1º - Lenguajes marcas y sistemas de gestión de información
+
+Área personal
+Mis cursos
+DAM1_LMGI
+UT3 Utilización de LM en entornos web. (26H)
+Agregando un nuevo Tarea a UT3 Utilización de LM en entornos web. (26H)
+
+
+Agregando un nuevo Tarea a UT3 Utilización de LM en entornos web. (26H)
+
+Expandir todo
+
+General
+
+Nombre de la tarea
+
+
+Descripción
+
+Muestra la descripción en la página del curso
+
+Archivos adicionales
+Puede arrastrar y soltar archivos aquí para añadirlos
+Suelte los archivos a subir aquí
+Cargando...
+
+
+Disponibilidad
+
+Permitir entregas desde
+
+Día 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+Mes 
+January
+February
+March
+April
+May
+June
+July
+August
+Septembe
+October
+November
+December
+
+Año 
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+
+Hora 
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Minuto 
+00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+
+Habilitar
+
+
+Fecha de entrega
+
+Día 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+Mes 
+January
+February
+March
+April
+May
+June
+July
+August
+Septembe
+October
+November
+December
+
+Año 
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+
+Hora 
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Minuto 
+00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+
+Habilitar
+
+
+Fecha límite
+
+Día 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+Mes 
+January
+February
+March
+April
+May
+June
+July
+August
+Septembe
+October
+November
+December
+
+Año 
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+
+Hora 
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Minuto 
+00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+
+Habilitar
+
+
+Recordarme calificar en
+
+Día 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+Mes 
+January
+February
+March
+April
+May
+June
+July
+August
+Septembe
+October
+November
+December
+
+Año 
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+
+Hora 
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Minuto 
+00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+
+Habilitar
+
+
+Mostrar siempre la descripción
+
+
+Tipos de entrega
+ Texto en línea  
+ Archivos enviados
+
+Límite de palabras
+  Habilitar
+
+Número máximo de archivos subidos
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+Tamaño máximo de la entrega
+
+Curso límite de subida (10MB)
+10MB
+5MB
+2MB
+1MB
+500KB
+100KB
+50KB
+10KB
+
+Tipos de archivo aceptados
+
+Tipos de archivo aceptados 
+No hay selección
+
+
+
+Tipos de retroalimentación
+
+Tipos de retroalimentación
+
+ Comentarios de retroalimentación  
+ Hoja de calificaciones externa  
+ Archivos de retroalimentación
+
+
+Comentario en línea 
+
+No
+Sí
+
+
+
+Configuración de entrega
+
+Requiere que los alumnos pulsen el botón de envío 
+
+No
+Sí
+
+
+Es necesario que los estudiantes acepten las condiciones de entrega 
+
+No
+Sí
+
+
+Intentos adicionales 
+
+Nunca
+Manual
+Automática hasta aprobar
+
+
+Número máximo de intentos 
+
+Ilimitado
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+
+
+Configuración de entrega por grupo
+
+Entrega por grupos 
+
+No
+Sí
+
+Se requiere formar parte de un grupo para realizar la entrega 
+
+No
+Sí
+
+
+Se requiere que todos los miembros del grupo entreguen 
+
+No
+Sí
+
+
+Agrupamiento para los grupos 
+Ninguno
+
+
+
+Avisos
+
+Enviar aviso de entregas a los que califican 
+
+No
+Sí
+
+
+Notificar a los evaluadores las entregas fuera de plazo 
+
+No
+Sí
+
+
+Valor por defecto para "Notificar a los estudiantes" 
+
+No
+Sí
+
+
+
+Calificación
+
+Calificación
+
+Tipo 
+
+Ninguna
+Escala
+Puntuación
+
+
+Escala 
+
+Escala de competencia por defecto 
+Vías de conocimiento separadas y conectadas 
+Excellent/Very poor (4 point) 
+Yes/No (2 point)
+
+
+Calificación máxima 
+100
+
+
+
+Método de calificación 
+
+Calificación simple directa 
+Guía de evaluación
+Rúbrica
+
+
+Categoría de calificaciones 
+
+Sin categorizar
+
+
+Calificación para aprobar 
+
+
+Envíos anónimos 
+
+No
+Sí
+
+
+Ocultar la identidad del evaluador a los estudiantes 
+
+No
+Sí
+
+
+Usar workflow (flujo de trabajo) de calificaciones 
+
+No
+Sí
+
+
+Usar asignación de evaluadores 
+
+No
+Sí
+
+
+
+Ajustes comunes del módulo
+
+Disponibilidad 
+
+Mostrar en la página del curso
+Ocultar a estudiantes
+
+
+Número ID 
+
+
+Modo de grupo 
+
+No hay grupos
+Grupos separados
+Grupos visibles
+
+
+Agrupamiento 
+
+Ninguno
+
+
+Añadir restricción de acceso por grupo/agrupamiento
+
+
+Restricciones de acceso
+
+Restricciones de acceso
+
+
+
+Finalización de actividad
+
+Rastreo de finalización 
+
+No indicar finalización de la actividad 
+Los estudiantes pueden marcar manualmente la actividad como completada
+Mostrar la actividad como completada cuando se cumplan las condiciones 
+
+
+Requerir ver 
+
+Requerir calificación 
+
+ El estudiante debe entregar esta actividad para completarla
+
+Se espera finalizar en
+
+Día 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+Mes 
+January
+February
+March
+April
+May
+June
+July
+August
+Septembe
+October
+November
+December
+
+Año 
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+
+Hora 
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Minuto 
+00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+
+Habilitar
+
+
+Marcas
+
+HTML, forms, fielset, legend, label, input, select, button, submit, ...
+
+Competencias
+
+Al finalizar la actividad: 
+
+No hacer nada
+Adjuntar evidencia
+Enviar para revisión
+Completar la competencia
+
+
+En este formulario hay campos obligatorios. Usted se ha identificado como Aitor E ( Cerrar sesión)
+
+Ayuda y documentación
+

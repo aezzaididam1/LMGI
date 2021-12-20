@@ -1,0 +1,340 @@
+================================================================================
+
+Guía del pasajero
+Ayuda
+Elija idioma:  
+English
+Español
+Français
+Deutsch
+?
+
+
+SpTH Spain Travel Health
+
+
+Para crear su formulario FCS de familia/grupo debe ser mayor de edad.
+
+Una vez rellenados los datos, recibirá un e-mail en su cuenta de correo, con un código de seguridad y un enlace para poder crear el formulario de grupo/familia. En este formulario deberá indicar sus datos de viaje y los datos de todos los pasajeros que viajarán con usted. Una vez rellenados los datos, recibirá un código QR por cada uno de los pasajeros del grupo.
+
+Recuerde que es obligatorio cumplimentar este formulario para todos los pasajeros que entren en España procedentes de cualquier país y que cada formulario está asociado a un único viaje, es personal e intransferible.
+
+Sus datos personales serán tratados de acuerdo con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de sus datos personales y a la libre circulación de estos datos y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales y otras reglamentaciones relacionadas.
+
+El responsable del tratamiento de los datos será el Ministerio de Sanidad (y las demás autoridades sanitarias). Para más información puede ver la sección sobre tratamiento de datos.
+
+NO DEBE VIAJAR si tiene síntomas compatibles con COVID-19 (fiebre, tos, dificultad respiratoria), de inicio reciente, si ha sido diagnosticado de COVID-19 en los últimos 14 días o si ha tenido contacto estrecho con un caso confirmado de COVID-19 en las dos últimas semanas.
+
+
+Datos del pasajero responsable
+
+
+Apellidos *
+
+Nombre *
+
+Número de pasaporte, DNI/NIE o número de identificación personal *
+
+Número de vuelo * ?
+
+Fecha de llegada *
+
+Dirección de correo electrónico *
+
+Confirmar correo electrónico *
+
+Marque aquí si su destino final no es España (sólo llega a España en tránsito)
+
+
+Información legal
+
+
+Cada pasajero deberá contestar un formulario asociado a cada viaje, personal e intransferible. Asegure que rellena este formulario y lo firma antes de volar a España. Y recuerde que,tras la firma del formulario FCS, recibirá un código QR asociado a su viaje, que es obligatorio traer en su móvil o impreso en papel para poder pasar el control sanitario aeroportuario.
+
+Asimismo, al pasar el control aeroportuario puede ser sometido a un control de temperatura mediante termómetros sin contacto o por cámaras termográficas. Estas pruebas se realizarán garantizando la privacidad del pasajero y los datos obtenidos no serán objeto de almacenamiento.
+
+¿Quién es el responsable del tratamiento de sus datos?
+El responsable del tratamiento "SpTH Spain Travel Health" (https://www.spth.gob.es/) es el Ministerio de Sanidad de España.
+¿Cuál es la finalidad para el tratamiento de sus datos?
+Vigilancia epidemiológica y control sanitario por la pandemia provocada por la COVID-19. Garantizar la prestación de los servicios ordinarios o extraordinarios necesarios para el control sanitario de la entrada de pasajeros procedentes de cualquier país. Usos estadísticos e investigación sanitaria.
+¿Cuál es la base de legitimación aplicable?
+La base jurídica principal que legitima el tratamiento "SpTH Spain Travel Health" es el art. 6.1.e) del Reglamento General de Protección de Datos (RGPD/GDPR): "El tratamiento es necesario para el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento".
+¿A qué destinatarios se comunican sus datos?
+Áreas y Dependencias de Sanidad de las Delegaciones y Subdelegaciones del Gobierno de España, Autoridades Sanitarias de las Comunidades Autónomas, así como a otros organismos o administraciones sanitarias y a las autoridades sanitarias de otros países.
+¿Cuáles son sus derechos cuando nos facilita sus datos?
+Puede ejercer, entre otros, los derechos de: acceso, cancelación, supresión, limitación, rectificación, portabilidad y derecho al olvido en la medida en que las obligaciones legales lo permitan.
+¿De dónde proceden los datos que tratamos sobre usted?
+A través de esta Web, sus datos personales pueden ser recogidos directamente a través de usted (mediante la cumplimentación del formulario SPTH, por ejemplo) o indirectamente (a través de cookies).
+¿Qué cookies se recogen?
+Se recaban cookies técnicas, necesarias para la navegación, en base al interés legítimo del responsable del Tratamiento (art 6. 1.f del RGPD). Se utiliza un componente de hcaptcha de Intuition Machines, Inc, para proporcionar seguridad (confirmar que el acceso a la web es realizado por una persona y no un robot). La cookie no comparte datos personales. También se utiliza tecnología WAF (captura de la IP de origen) para prevenir ciberataques. Si quiere obtener más información sobre el tratamiento de los datos personales, pinche aquí.
+La firma de este formulario conlleva la responsabilidad sobre la veracidad de la información, la aceptación de las condiciones legales, de tratamiento de datos y el cumplimiento de normativas sanitarias indicadas en cualquier momento por las autoridades.
+
+Si es menor de edad, o persona dependiente, el formulario deberá ser firmado por su tutor legal.
+
+Sí, he leído y entiendo la información y acepto estos términos 
+
+
+Enviar
+
+
+Su salud es lo más importante. Si presenta síntomas compatibles con COVID-19 (fiebre, dificultad respiratoria, tos) le recomendamos no viajar y solicitar asistencia sanitaria lo antes posible en el lugar en el que se encuentre. Recuerde que su Salud también viaja.
+
+
+================================================================================
+
+
+CREAR FORMULARIO PARA FAMILIA/GRUPO
+
+
+Paso 1: información personal
+
+
+Información personal responsable de grupo
+
+
+Apellidos * 
+
+Nombre *
+
+Sexo
+
+Masculino   
+Femenino
+
+Número de pasaporte, DNI o identificador personal * 
+
+Regresar
+
+Guardar y continuar
+
+
+================================================================================
+
+
+CREAR FORMULARIO PARA FAMILIA/GRUPO
+
+
+Paso 2: información del viaje
+
+
+Información del vuelo de llegada a España
+
+
+Línea aérea *  
+Número de vuelo   
+
+Número de asiento *  
+Fecha de llegada   
+
+
+Dirección estancia: sólo escriba el lugar que visitará primero
+
+
+Nombre del hotel (si es el caso)  
+Calle y número   
+
+Número de apartamento / piso  
+Ciudad / población *   
+
+Comunidad / ciudad autónoma *  
+Seleccione una opción
+Andalucía
+Aragón
+Asturias
+Baleares
+Canarias
+Cantabria
+Castilla la Mancha
+Castilla y León
+Cataluña
+Comunidad Valenciana
+Extremadura
+Galicia
+La Rioja
+Madrid
+Murcia
+Navarra
+País Vasco
+Ceuta
+Melilla
+
+Provincia   
+Seleccione una opción        
+A Coruña
+Álava
+Albacete
+Alicante
+Almería
+Asturias
+Ávila
+Badajoz
+Baleares
+Barcelona
+Burgos
+Cáceres
+Cádiz
+Cantabria
+Castellón
+Ciudad Real
+Córdoba
+Cuenca
+Girona
+Granada
+Guadalajara
+Gipuzkoa
+Huelva
+Huesca
+Jaén
+La Rioja
+Las Palmas
+León
+Lérida
+Lugo
+Madrid
+Málaga
+Murcia
+Navarra
+Ourense
+Palencia
+Pontevedra
+Salamanca
+Segovia
+Sevilla
+Soria
+Tarragona
+Santa Cruz de Tenerife
+Teruel
+Toledo
+Valencia
+Valladolid
+Vizcaya
+Zamora
+Zaragoza
+
+Código postal   
+
+Marque en caso de que esta dirección sea permanente para toda su estancia en el país 
+
+
+Regresar
+
+Guardar y continuar
+
+
+================================================================================
+
+
+CREAR FORMULARIO PARA FAMILIA/GRUPO
+
+
+Paso 3: antecedentes de viaje
+
+
+Porfavor, indique el país de inicio de su viaje *
+Seleccione una opción
+
+
+Por favor indique todos los países por que ha viajado/transitado en los últimos 14 días
+
+Seleccione una opción
+Seleccione una opción
+Seleccione una opción
+Seleccione una opción
+
+Añadir país
+
+Motivo del viaje, Por favor, marque una opción
+Trabajo  
+Visita familiar
+Misión especial  
+Cooperación  
+otros
+
+ 
+Regresar
+
+Guardar y continuar
+
+
+================================================================================
+
+
+CREAR FORMULARIO PARA FAMILIA/GRUPO
+
+
+Paso 4: cuestionario sanitario
+
+
+Obligatorio para entrar en España
+
+
+EN RELACIÓN CON LA EMERGENCIA SANITARIA DECLARADA POR EL COVID-15, es obligatorio que responda a las siguientes preguntas. Si es necesario se realizará una eveluación médica a su llegada.
+
+¿Ha tenido contacto con un caso confirmado de enfermedad por nuevo coronavirus (COVID-19) en los últimos 14 días? *
+
+Sí  
+No
+
+¿Usted presenta fiebre, tos o dificulta respiratoria? *
+
+Sí  
+No
+
+Por favor, marque el o los síntomas que presenta
+
+Fiebre  
+Dificultad respiratoria  
+Tos
+
+
+¿Ha acudido o visitado un hospital en los últimos 14 días? *
+
+Sí  
+No
+
+En caso de haber respondido Sí, por favor, marque con una "X" la opción que mejor describe esta visita
+ 
+Trabajador hospitalario en contacto con COVID-19  
+Trabajador hospitalario sin contacto con COVID-19  
+Visita por sospecha COVID-19  
+Visita por otros motivos
+
+¿Tiene un certificado de resultado negativo de una prueba PCR, TMA o RT-LAMP (COVID-19) realizada en as 72h anteriores su llegada a España? (a su llegada se le puede exigr que presente el certificado del resultado). LOS NIÑOS MENORES DE 6 AÑOS, NO TIENEN LA OBLIGACIÓN DE REALIZAR LA PRUEBA, POR LO QUE, DEBERÁN CONTESTAR SÍ. **
+
+Sí  
+No
+
+(**) La respuesta a esta pregunta es obligatoria para generar el QR, pero si aún no tiene el certificado, puede contestarla mas adelante desde la opción continuar formulario en la pantalla principal.
+
+
+Regresar
+
+Guardar y continuar
+
+
+================================================================================
+
+
+CREAR FORMULARIO PARA FAMILIA/GRUPO
+
+
+Paso 5: declaracion responsable
+
+
+Yo, como responsable de esta familia/grupo y todos los pasajeros del mismo, declaro que cada pasajero se compromete a que si durante los 14 dias posteriores a la entrada en Espafia presenta sintomas de infeccién respiratoria aguda (fiebre, tos o dificultad respiratoria), se autoaislara en el domicilio o lugar de residencia, realizando una autovigilancia de los sintomas de la COVID-19 y nos pondremos en contacto telefonicamente con las autoridades sanitarias competentes.
+
+Cada uno de nosotros se compromete a llevar a cabo aquellas indicaciones y medidas que nos indiquen las autoridades sanitarias.
+
+Y para que asi conste a los efectos oportunos, confirmo la veracidad de la informacién proporcionada.
+
+Marcar para aceptar *
+
+Al aceptar esta atestiguando la veracidad de las respuestas que se proporcionan en este cuestionario de familia/grupo y todas las condiciones mencionadas en la proteccién de datos.
+
+
+Regresar
+
+Guardar y continuar
+
+
+================================================================================

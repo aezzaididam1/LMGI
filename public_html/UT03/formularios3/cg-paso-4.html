@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paso-4</title>
+  </head>
+  <body>
+    <form action="cg-paso-5.html" method="get">
+      <p>CREAR FORMULARIO PARA FAMILIA/GRUPO</p>
+      <img src="imagenes/step-4.jpg" alt="step-4" width="100%" />
+      <h1>Paso 4: cuestionario sanitario</h1>
+
+      <h2>Obligatorio para entrar en España</h2>
+      <p>
+        EN RELACIÓN CON LA EMERGENCIA SANITARIA DECLARADA POR EL COVID-15, es
+        obligatorio que responda a las siguientes preguntas. Si es necesario se
+        realizará una eveluación médica a su llegada.
+      </p>
+
+      <p>
+        ¿Ha tenido contacto con un caso confirmado de enfermedad por nuevo
+        coronavirus (COVID-19) en los últimos 14 días? *
+      </p>
+      <input type="radio" id="contactSi" name="contacto" value="S" />
+      <label for="contactSi">Sí</label>
+      <input type="radio" id="contactNo" name="contacto" value="N" />
+      <label for="contactNo">No</label>
+      <br /><br />
+
+      <fieldset>
+        <legend>¿Usted presenta fiebre, tos o dificulta respiratoria? *</legend>
+        <input type="radio" id="sintomSi" name="sintomas" value="S" />
+        <label for="sintomSi">Sí</label>
+        <input type="radio" id="sintomNo" name="sintomas" value="N" />
+        <label for="sintomNo">No</label>
+        <br /><br />
+
+        Por favor, marque el o los síntomas que presenta<br />
+        <input type="checkbox" id="fiebre" name="fiebre" />
+        <label for="fiebre">Fiebre </label>
+        <input type="checkbox" id="respiratoria" name="respiratoria" />
+        <label for="respiratoria">Dificultad respiratoria </label>
+        <input type="checkbox" id="tos" name="tos" />
+        <label for="tos">Tos </label>
+        <br /><br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>
+          ¿Ha acudido o visitado un hospital en los últimos 14 días? *
+        </legend>
+        <input type="radio" id="visitaSi" name="visita" value="S" />
+        <label for="visitaSi">Sí</label>
+        <input type="radio" id="visitaNo" name="visita" value="N" />
+        <label for="visitaNo">No</label>
+        <br /><br />
+        En caso de haber respondido Sí, por favor, marque con una "X" la opción
+        que mejor describe esta visita
+        <br />
+        <input type="checkbox" id="enContacto" name="enContacto" />
+        <label for="enContacto"
+          >Trabajador hospitalario en contacto con COVID-19
+        </label>
+        <input type="checkbox" id="sinContacto" name="sinContacto" />
+        <label for="sinContacto"
+          >Trabajador hospitalario sin contacto con COVID-19
+        </label>
+        <input type="checkbox" id="sospecha" name="sospecha" />
+        <label for="sospecha">Visita por sospecha COVID-19 </label>
+        <input type="checkbox" id="otrosMotivos" name="otrosMotivos" />
+        <label for="otrosMotivos">Visita por otros motivos</label>
+        <br /><br />
+      </fieldset>
+      <p>
+        ¿Tiene un certificado de resultado negativo de una prueba PCR, TMA o
+        RT-LAMP (COVID-19) realizada en as 72h anteriores su llegada a España?
+        (a su llegada se le puede exigr que presente el certificado del
+        resultado). LOS NIÑOS MENORES DE 6 AÑOS, NO TIENEN LA OBLIGACIÓN DE
+        REALIZAR LA PRUEBA, POR LO QUE, DEBERÁN CONTESTAR SÍ. **
+      </p>
+      <input type="radio" id="pruebaSi" name="prueba" value="S" />
+      <label for="pruebaSi">Sí</label>
+      <input type="radio" id="pruebaNo" name="prueba" value="N" />
+      <label for="pruebaNo">No</label>
+      <br />
+      <p>
+        (**) La respuesta a esta pregunta es obligatoria para generar el QR,
+        pero si aún no tiene el certificado, puede contestarla mas adelante
+        desde la opción continuar formulario en la pantalla principal.
+      </p>
+      <br />
+      <input type="submit" value="Regresar" />
+      <input type="submit" value="Guardar y continuar" />
+    </form>
+  </body>
+</html>
